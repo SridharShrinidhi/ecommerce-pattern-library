@@ -23,4 +23,8 @@
   background-color: var(--color-primary);
   border-color: var(--color-primary);
   color: #fff;
+  background: linear-gradient(to left, black 50%, white 50%);
+  background-size: 200% 200%;
+  background-position: right top;
+  transition: all .3s ease-out;
 }

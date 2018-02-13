@@ -36,3 +36,24 @@ p {
   position: relative;
   top: 0;
 }
+
+
+.collection-text {
+  top: 10em;
+  right: 50%;
+  z-index: 10;
+}
+
+.collection-img:first-child {
+  right: 10%
+  top: 2em;
+}
+
+.collection-img:nth-child(2) {
+  right: 20%
+  top: 5em;
+}
+.collection-img:last-child {
+  left: 30%
+  top: 2em;
+}
