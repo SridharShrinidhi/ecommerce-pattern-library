@@ -1,3 +1,11 @@
+.grey {
+  color: #a9a9a9;
+}
+
+hr {
+  border-top: 1px solid #000;
+}
+
 @media only screen and (min-width: 20em) {
 
   .text-s {

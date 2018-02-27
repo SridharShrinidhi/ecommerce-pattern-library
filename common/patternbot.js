@@ -348,9 +348,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 4/WEB DEV 4/ecommerce-pattern-library
- * @version 1519705007895
+ * @version 1519710619100
  */
-const patternManifest_1519705007895 = {
+const patternManifest_1519710619100 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -569,10 +569,16 @@ const patternManifest_1519705007895 = {
           "localPath": "patterns/banners/main-banners.html"
         },
         {
-          "name": "product-page",
-          "namePretty": "Product page",
-          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 4/WEB DEV 4/ecommerce-pattern-library/patterns/banners/product-page.html",
-          "localPath": "patterns/banners/product-page.html"
+          "name": "product-page-banner",
+          "namePretty": "Product page banner",
+          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 4/WEB DEV 4/ecommerce-pattern-library/patterns/banners/product-page-banner.html",
+          "localPath": "patterns/banners/product-page-banner.html"
+        },
+        {
+          "name": "products-collections-page-banner",
+          "namePretty": "Products collections page banner",
+          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 4/WEB DEV 4/ecommerce-pattern-library/patterns/banners/products-collections-page-banner.html",
+          "localPath": "patterns/banners/products-collections-page-banner.html"
         }
       ],
       "md": [
@@ -671,5 +677,5 @@ const patternManifest_1519705007895 = {
   }
 };
 
-patternBotIncludes(patternManifest_1519705007895);
+patternBotIncludes(patternManifest_1519710619100);
 }());
