@@ -348,9 +348,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 4/WEB DEV 4/ecommerce-pattern-library
- * @version 1519754370345
+ * @version 1519754495447
  */
-const patternManifest_1519754370345 = {
+const patternManifest_1519754495447 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -676,10 +676,10 @@ const patternManifest_1519754370345 = {
           "readme": {}
         },
         {
-          "name": "date",
-          "namePretty": "Date",
-          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 4/WEB DEV 4/ecommerce-pattern-library/patterns/forms/date.html",
-          "localPath": "patterns/forms/date.html",
+          "name": "date-picker",
+          "namePretty": "Date picker",
+          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 4/WEB DEV 4/ecommerce-pattern-library/patterns/forms/date-picker.html",
+          "localPath": "patterns/forms/date-picker.html",
           "readme": {}
         },
         {
@@ -770,5 +770,5 @@ const patternManifest_1519754370345 = {
   }
 };
 
-patternBotIncludes(patternManifest_1519754370345);
+patternBotIncludes(patternManifest_1519754495447);
 }());

@@ -2,7 +2,7 @@
 checkbox: |
     The checkbox is used to make a agree/disagree choice. It is helpful in toggling states.
 
-date: |
+date-picker: |
     The date picker can be used for payment details, birthday information.
     Use date picker when you require the user to select/enter date.
 
