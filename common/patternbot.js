@@ -348,9 +348,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 4/WEB DEV 4/ecommerce-pattern-library
- * @version 1519743681648
+ * @version 1519754208256
  */
-const patternManifest_1519743681648 = {
+const patternManifest_1519754208256 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -669,10 +669,67 @@ const patternManifest_1519743681648 = {
       "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 4/WEB DEV 4/ecommerce-pattern-library/patterns/forms",
       "html": [
         {
-          "name": "forms",
-          "namePretty": "Forms",
-          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 4/WEB DEV 4/ecommerce-pattern-library/patterns/forms/forms.html",
-          "localPath": "patterns/forms/forms.html"
+          "name": "checkbox",
+          "namePretty": "Checkbox",
+          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 4/WEB DEV 4/ecommerce-pattern-library/patterns/forms/checkbox.html",
+          "localPath": "patterns/forms/checkbox.html",
+          "readme": {}
+        },
+        {
+          "name": "date",
+          "namePretty": "Date",
+          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 4/WEB DEV 4/ecommerce-pattern-library/patterns/forms/date.html",
+          "localPath": "patterns/forms/date.html",
+          "readme": {}
+        },
+        {
+          "name": "drop-down",
+          "namePretty": "Drop down",
+          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 4/WEB DEV 4/ecommerce-pattern-library/patterns/forms/drop-down.html",
+          "localPath": "patterns/forms/drop-down.html",
+          "readme": {}
+        },
+        {
+          "name": "email",
+          "namePretty": "Email",
+          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 4/WEB DEV 4/ecommerce-pattern-library/patterns/forms/email.html",
+          "localPath": "patterns/forms/email.html",
+          "readme": {}
+        },
+        {
+          "name": "number",
+          "namePretty": "Number",
+          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 4/WEB DEV 4/ecommerce-pattern-library/patterns/forms/number.html",
+          "localPath": "patterns/forms/number.html",
+          "readme": {}
+        },
+        {
+          "name": "password",
+          "namePretty": "Password",
+          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 4/WEB DEV 4/ecommerce-pattern-library/patterns/forms/password.html",
+          "localPath": "patterns/forms/password.html",
+          "readme": {}
+        },
+        {
+          "name": "radio-button",
+          "namePretty": "Radio button",
+          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 4/WEB DEV 4/ecommerce-pattern-library/patterns/forms/radio-button.html",
+          "localPath": "patterns/forms/radio-button.html",
+          "readme": {}
+        },
+        {
+          "name": "range",
+          "namePretty": "Range",
+          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 4/WEB DEV 4/ecommerce-pattern-library/patterns/forms/range.html",
+          "localPath": "patterns/forms/range.html",
+          "readme": {}
+        },
+        {
+          "name": "zip-code",
+          "namePretty": "Zip code",
+          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 4/WEB DEV 4/ecommerce-pattern-library/patterns/forms/zip-code.html",
+          "localPath": "patterns/forms/zip-code.html",
+          "readme": {}
         }
       ],
       "md": [
@@ -713,5 +770,5 @@ const patternManifest_1519743681648 = {
   }
 };
 
-patternBotIncludes(patternManifest_1519743681648);
+patternBotIncludes(patternManifest_1519754208256);
 }());

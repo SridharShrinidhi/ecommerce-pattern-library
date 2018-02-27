@@ -1414,44 +1414,68 @@
 
 </section>
 
-        <section class="pattern" id="forms" role="tabpanel" hidden aria-hidden="true" style="">
-  <div class="pattern-toolbar gutter pad-t-1-4 pad-b-1-8 relative" style="">
+        <section class="pattern" id="forms" role="tabpanel" hidden aria-hidden="true" >
+  <div class="pattern-toolbar gutter pad-t-1-4 pad-b-1-8 relative" >
     <h2 class="pattern-name exa push-1-4" style="color: #000; font-family: &quot;Maven Pro&quot;, sans-serif;">Forms</h2>
-        <ul class="list-group-inline gutter absolute pin-cr">
-            <li>
-              <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="forms-forms-code-sample">
-                <i class="icon i-18">
-                  <svg><use xlink:href="#icon-code"></use></svg>
-                </i>
-              </button>
-            </li>
-            <li>
-              <button class="center-contents-vertical pattern-tool-btn pattern-include-btn" title="Copy include" aria-label="Copy include" data-copy-include-pattern="forms/forms" hidden>
-                <i class="icon i-18">
-                  <svg><use xlink:href="#icon-copy"></use></svg>
-                </i>
-              </button>
-            </li>
-            <li>
-              <a class="center-contents-vertical pattern-tool-btn pattern-pop-btn" href="patterns/forms/forms.html" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
-                <i class="icon i-18">
-                  <svg><use xlink:href="#icon-pop-out"></use></svg>
-                </i>
-              </a>
-            </li>
-        </ul>
+      <nav class="pattern-nav">
+        <ol class="list-group-inline push-1-4 pad-b-1-4">
+            <li><a href="#forms--checkbox">Checkbox</a></li>
+            <li><a href="#forms--date">Date</a></li>
+            <li><a href="#forms--drop-down">Drop down</a></li>
+            <li><a href="#forms--email">Email</a></li>
+            <li><a href="#forms--number">Number</a></li>
+            <li><a href="#forms--password">Password</a></li>
+            <li><a href="#forms--radio-button">Radio button</a></li>
+            <li><a href="#forms--range">Range</a></li>
+            <li><a href="#forms--zip-code">Zip code</a></li>
+        </ol>
+      </nav>
   </div>
 
+      <div class="pattern-desc milli island" >
+        <div class="max-length"><p>The checkbox is used to make a agree/disagree choice. It is helpful in toggling states.</p>
+</div>
+      </div>
 
   
 
-    <div class="pattern-details " id="forms--forms" style="">
+    <div class="pattern-details " id="forms--checkbox" style="">
+        <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4" style="">
+          <h3 class="pattern-name tera push-1-8">Checkbox</h3>
+            <ul class="list-group-inline gutter absolute pin-cr">
+                <li>
+                  <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="forms-checkbox-code-sample">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-code"></use></svg>
+                    </i>
+                  </button>
+                </li>
+                <li>
+                  <button class="center-contents-vertical pattern-tool-btn pattern-include-btn" title="Copy include" aria-label="Copy include" data-copy-include-pattern="forms/checkbox" hidden>
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-copy"></use></svg>
+                    </i>
+                  </button>
+                </li>
+                <li>
+                  <a class="btn center-contents-vertical pattern-tool-btn pattern-pop-btn" href="patterns/forms/checkbox.html" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-pop-out"></use></svg>
+                    </i>
+                  </a>
+                </li>
+            </ul>
+        </div>
+          <div class="pattern-desc milli island" style="">
+            <div class="max-length"><p>The checkbox is used to make a agree/disagree choice. It is helpful in toggling states.</p>
+</div>
+          </div>
 
       <div class="pattern-examples pad-t-1-2 pad-b-1-2" style="">
         <div class="gutter-2 pad-t-1-2 pad-b-1-2">
           <div class="resizeable-pattern relative" style="">
             <i class="icon i-32 patternbot-iframe-loading-gears absolute pin-c"><svg><use xlink:href="#patternbot-iframe-loading-gears"></use></svg></i>
-            <iframe data-src="patterns/forms/forms.html" scrolling="no" onload="resizeIframe(this)"  ></iframe>
+            <iframe data-src="patterns/forms/checkbox.html" scrolling="no" onload="resizeIframe(this)"  ></iframe>
               <div class="resizeable-pattern-length">
                 <div class="resize-handle resize-handle-left" style="">
                   <i class="icon i-18">
@@ -1467,334 +1491,606 @@
           </div>
         </div>
 
-          <div class="pattern-code-wrap gutter pad-t-1-2 pad-b-1-2" hidden aria-hidden="true" id="forms-forms-code-sample" tabindex="-1">
+          <div class="pattern-code-wrap gutter pad-t-1-2 pad-b-1-2" hidden aria-hidden="true" id="forms-checkbox-code-sample" tabindex="-1">
             <div class="pattern-code relative milli island-1-2" style="">
-              <button class="center-contents-vertical pattern-tool-btn pattern-copy-btn absolute pin-tr" title="Copy code" aria-label="Copy code" data-clipboard-target="#forms-forms-code-sample-copy-chunk" hidden>
+              <button class="center-contents-vertical pattern-tool-btn pattern-copy-btn absolute pin-tr" title="Copy code" aria-label="Copy code" data-clipboard-target="#forms-checkbox-code-sample-copy-chunk" hidden>
                 <i class="icon i-18">
                   <svg><use xlink:href="#icon-copy"></use></svg>
                 </i>
               </button>
-              <code><pre id="forms-forms-code-sample-copy-chunk">&lt;form class="max-length island" method="post" action="#" novalidate=""&gt;
-  &lt;section class="log-in">
-    &lt;div class="grid">
-      &lt;div class="unit xs-1 s-1 m-1 l-1-2 island push">
-        &lt;h5>RETURNING CUSTOMER?&lt;/h5>
-        &lt;h6 class="push-1-2 bold">SIGN IN&lt;/h6>
-        &lt;div class="error-message error-message-highlighted push island-1-2" role="alert" aria-live="assertive">
-          &lt;h3 class="push-0">
-              &lt;i class="icon i-32">&lt;svg>&lt;use xlink:href="../../images/icons.svg#error"/>&lt;/svg>&lt;/i>
-              &lt;span class="icon-label">There are items that require your attention&lt;/span>
-            &lt;/h3>
-        &lt;/div>
-
-        &lt;div class="push-1-2">
-          &lt;label for="email">Email&lt;/label>
-          &lt;input type="email" id="email" required aria-describedby="email-error">
-          &lt;p class="error-message milli island-1-4 push-0" id="email-error">
-            &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="images/icons.svg#warning"/>&lt;/svg>&lt;/i>
-            &lt;span class="icon-label">Please provide a properly formatted email address&lt;/span>
-          &lt;/p>
-        &lt;/div>
-
-        &lt;div class="push-1-2">
-          &lt;label for="password">Password&lt;/label>
-          &lt;input type="password" id="password" required aria-describedby="password-error">
-          &lt;p class="error-message milli island-1-4 push-0" id="password-error">
-            &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="images/icons.svg#warning"/>&lt;/svg>&lt;/i>
-            &lt;span class="icon-label">Password should be 8 characters long&lt;/span>
-          &lt;/p>
-        &lt;/div>
-
-        &lt;a class="btn push-1-2 milli bold" href="#">LOG IN &amp; CHECKOUT&lt;/a>
-
-      &lt;/div>
-      &lt;div class="unit xs-1 s-1 m-1 l-1-2 island push">
-        &lt;h5>CHECKOUT AS GUEST?&lt;/h5>
-        &lt;div class="error-message error-message-highlighted push island-1-2" role="alert" aria-live="assertive">
-          &lt;h3 class="push-0">
-              &lt;i class="icon 1-32">&lt;svg>&lt;use xlink:href="images/icons.svg#error"/>&lt;/svg>&lt;/i>
-              &lt;span class="icon-label">There are items that require your attention&lt;/span>
-            &lt;/h3>
-        &lt;/div>
-
-        &lt;div class="push-1-2">
-          &lt;label for="email-1">Email&lt;/label>
-          &lt;input type="email-1" id="email-1" required aria-describedby="email1-error">
-          &lt;p class="error-message milli island-1-4 push-0" id="email1-error">
-            &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="images/icons.svg#warning"/>&lt;/svg>&lt;/i>
-            &lt;span class="icon-label">Please provide a properly formatted email address&lt;/span>
-          &lt;/p>
-        &lt;/div>
-        &lt;a class="btn push-1-2 milli bold" href="#">CHECKOUT&lt;/a>
-        &lt;p class="kilo">OR&lt;/p>
-        &lt;a class="btn push-1-2 milli bold" href="#">CREATE AN ACCOUNT&lt;/a>
-      &lt;/div>
-    &lt;/div>
-  &lt;/section>
-
-  &lt;div class="payment-details">
-    &lt;h5 class="gutter push-none">CHECKOUT&lt;/h5>
-
-    &lt;div class="grid">
-
-
-      &lt;div class="unit xs-1 s-1 m-1 l-1-2 island">
-        &lt;h6>Billing Address&lt;/h6>
-
-        &lt;div class="push-1-2">
-          &lt;label for="name">Name&lt;/label>
-          &lt;input type="name" id="name" placeholder="John Smith" required aria-describedby="name-error">
-          &lt;p class="error-message milli island-1-4 push-0" id="name-error">
-            &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="images/icons.svg#warning"/>&lt;/svg>&lt;/i>
-            &lt;span class="icon-label">Please provide full name&lt;/span>
-          &lt;/p>
-        &lt;/div>
-
-        &lt;div class="push-1-2">
-          &lt;label for="address">Address line 1&lt;/label>
-          &lt;input type="text" id="address" required aria-describedby="address-error">
-          &lt;p class="error-message milli island-1-4 push-0" id="address-error">
-            &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="images/icons.svg#warning"/>&lt;/svg>&lt;/i>
-            &lt;span class="icon-label">Please provide full address&lt;/span>
-          &lt;/p>
-        &lt;/div>
-
-        &lt;div class="push-1-2">
-          &lt;label for="name">Address line 2 (optional)&lt;/label>
-          &lt;input type="text" id="address" aria-describedby="address-error-1">
-          &lt;p class="error-message milli island-1-4 push-0" id="address-error-1">
-            &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="images/icons.svg#warning"/>&lt;/svg>&lt;/i>
-            &lt;span class="icon-label">Please provide full address&lt;/span>
-          &lt;/p>
-        &lt;/div>
-
-        &lt;div class="grid">
-
-          &lt;div class="unit xs-1 s-1 m-1 l-1-2">
-
-            &lt;div class="push-1-2">
-              &lt;label for="city">City&lt;/label>
-              &lt;input type="text" id="city" aria-describedby="city-error">
-              &lt;p class="error-message milli island-1-4 push-0" id="city-error">
-                &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="images/icons.svg#warning"/>&lt;/svg>&lt;/i>
-                &lt;span class="icon-label">Please provide city name&lt;/span>
-              &lt;/p>
-            &lt;/div>
-          &lt;/div>
-
-          &lt;div class="unit xs-1 s-1 m-1 l-1-2">
-            &lt;div class="push-1-2">
-              &lt;label for="province">Province/State&lt;/label>
-              &lt;select name="text" id="province" aria-describedby="province-error">
-                &lt;option value="Alberta">Alberta&lt;/option>
-                &lt;option value="British Columbia">British Columbia&lt;/option>
-                &lt;option value="Manitoba">Manitoba&lt;/option>
-                &lt;option value="New Brunswick">New Brunswick&lt;/option>
-                &lt;option value="Newfoundland &amp; Labrador">Newfoundland &amp; Labrador&lt;/option>
-                &lt;option value="Nova Scotia">Nova Scotia&lt;/option>
-                &lt;option value="Ontario">Ontario&lt;/option>
-                &lt;option value="Price Edward Island">Price Edward Island&lt;/option>
-                &lt;option value="Quebec">Quebec&lt;/option>
-                &lt;option value="Saskatchewan">Saskatchewan&lt;/option>
-              &lt;/select>
-
-              &lt;p class="error-message milli island-1-4 push-0" id="province-error">
-                &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="images/icons.svg#warning"/>&lt;/svg>&lt;/i>
-                &lt;span class="icon-label">Please provide province name&lt;/span>
-              &lt;/p>
-            &lt;/div>
-          &lt;/div>
-
-        &lt;/div>
-
-        &lt;div class="push-1-2">
-          &lt;label for="zip">ZIP Code&lt;/label>
-          &lt;input type="text" id="zip" placeholder="K2K 3E4" required aria-describedby="zip-error">
-          &lt;p class="error-message milli island-1-4 push-0" id="zip-error">
-            &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="images/icons.svg#warning"/>&lt;/svg>&lt;/i>
-            &lt;span class="icon-label">Invalid ZIP code. ZIP format should be K2K 3E4.&lt;/span>
-          &lt;/p>
-        &lt;/div>
-
-      &lt;/div>
-
-      &lt;div class="unit xs-1 s-1 m-1 l-1-2 island">
-        &lt;h6>Payment Details&lt;/h6>
-
-        &lt;div class="push-1-2">
-          &lt;label for="type">Card Type&lt;/label>
-          &lt;input type="text" id="type" placeholder="John Smith" required aria-describedby="type-error">
-          &lt;p class="error-message milli island-1-4 push-0" id="type-error">
-            &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="images/icons.svg#warning"/>&lt;/svg>&lt;/i>
-            &lt;span class="icon-label">Please provide full name&lt;/span>
-          &lt;/p>
-        &lt;/div>
-
-        &lt;div class="push-1-2">
-          &lt;label for="card-no">Card Number&lt;/label>
-          &lt;input type="number" id="card-no" required aria-describedby="card-no-error">
-          &lt;p class="error-message milli island-1-4 push-0" id="card-no-error">
-            &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="images/icons.svg#warning"/>&lt;/svg>&lt;/i>
-            &lt;span class="icon-label">Please provide full address&lt;/span>
-          &lt;/p>
-        &lt;/div>
-
-        &lt;div class="push-1-2">
-          &lt;label for="name-1">Name on Card&lt;/label>
-          &lt;input type="text" id="name-1" aria-describedby="name-error-1">
-          &lt;p class="error-message milli island-1-4 push-0" id="name-error-1">
-            &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="images/icons.svg#warning"/>&lt;/svg>&lt;/i>
-            &lt;span class="icon-label">Please provide full name&lt;/span>
-          &lt;/p>
-        &lt;/div>
-
-        &lt;div class="grid">
-
-          &lt;div class="unit xs-1 s-1 m-1 l-1-2">
-
-            &lt;div class="push-1-2">
-              &lt;label for="city">Expiry Date&lt;/label>
-              &lt;input type="date" id="date" aria-describedby="date-error">
-              &lt;p class="error-message milli island-1-4 push-0" id="date-error">
-                &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="images/icons.svg#warning"/>&lt;/svg>&lt;/i>
-                &lt;span class="icon-label">Please provide city name&lt;/span>
-              &lt;/p>
-            &lt;/div>
-          &lt;/div>
-
-          &lt;div class="unit xs-1 s-1 m-1 l-1-2">
-            &lt;div class="push-1-2">
-              &lt;label for="cvv">CVV&lt;/label>
-              &lt;input type="number" id="cvv" aria-describedby="cvv-error">
-              &lt;p class="error-message milli island-1-4 push-0" id="cvv-error">
-                &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="images/icons.svg#warning"/>&lt;/svg>&lt;/i>
-                &lt;span class="icon-label">Please enter only numbers&lt;/span>
-              &lt;/p>
-            &lt;/div>
-          &lt;/div>
-
-        &lt;/div>
-
-
-      &lt;/div>
-    &lt;/div>
-  &lt;/div>
-
-  &lt;div>
-    &lt;div class="grid">
-      &lt;div class="unit xs-1 s-1 m-1 l-1-2 island push">
-        &lt;h6>Shipping Address&lt;/h6>
-        &lt;input type="checkbox" id="agree" required aria-describedby="agree-error">
-        &lt;label class="sa" for="agree">Same as billing address&lt;/label>
-        &lt;p class="error-message milli island-1-4 push-0" id="agree-error">
-          &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="images/icons.svg#warning"/>&lt;/svg>&lt;/i>
-          &lt;span class="icon-label">Please select if shipping address is the same as the billing address&lt;/span>
-        &lt;/p>
-
-
-        &lt;section class="billing">
-          &lt;div class="push-1-2">
-            &lt;label for="name">Name&lt;/label>
-            &lt;input type="name" id="name" placeholder="John Smith" required aria-describedby="name-error">
-            &lt;p class="error-message milli island-1-4 push-0" id="name-error">
-              &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="images/icons.svg#warning"/>&lt;/svg>&lt;/i>
-              &lt;span class="icon-label">Please provide full name&lt;/span>
-            &lt;/p>
-          &lt;/div>
-
-          &lt;div class="push-1-2">
-            &lt;label for="address">Address line 1&lt;/label>
-            &lt;input type="text" id="address" required aria-describedby="address-error">
-            &lt;p class="error-message milli island-1-4 push-0" id="address-error">
-              &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="images/icons.svg#warning"/>&lt;/svg>&lt;/i>
-              &lt;span class="icon-label">Please provide full address&lt;/span>
-            &lt;/p>
-          &lt;/div>
-
-          &lt;div class="push-1-2">
-            &lt;label for="name">Address line 2 (optional)&lt;/label>
-            &lt;input type="text" id="address" aria-describedby="address-error-1">
-            &lt;p class="error-message milli island-1-4 push-0" id="address-error-1">
-              &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="images/icons.svg#warning"/>&lt;/svg>&lt;/i>
-              &lt;span class="icon-label">Please provide full address&lt;/span>
-            &lt;/p>
-          &lt;/div>
-
-          &lt;div class="grid">
-
-            &lt;div class="unit xs-1 s-1 m-1 l-1-2">
-
-              &lt;div class="push-1-2">
-                &lt;label for="city">City&lt;/label>
-                &lt;input type="text" id="city" aria-describedby="city-error">
-                &lt;p class="error-message milli island-1-4 push-0" id="city-error">
-                  &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="images/icons.svg#warning"/>&lt;/svg>&lt;/i>
-                  &lt;span class="icon-label">Please provide city name&lt;/span>
-                &lt;/p>
-              &lt;/div>
-            &lt;/div>
-
-            &lt;div class="unit xs-1 s-1 m-1 l-1-2">
-              &lt;div class="push-1-2">
-                &lt;label for="province">Province/State&lt;/label>
-                &lt;select name="text" id="province" aria-describedby="province-error">
-                  &lt;option value="Alberta">Alberta&lt;/option>
-                  &lt;option value="British Columbia">British Columbia&lt;/option>
-                  &lt;option value="Manitoba">Manitoba&lt;/option>
-                  &lt;option value="New Brunswick">New Brunswick&lt;/option>
-                  &lt;option value="Newfoundland &amp; Labrador">Newfoundland &amp; Labrador&lt;/option>
-                  &lt;option value="Nova Scotia">Nova Scotia&lt;/option>
-                  &lt;option value="Ontario">Ontario&lt;/option>
-                  &lt;option value="Price Edward Island">Price Edward Island&lt;/option>
-                  &lt;option value="Quebec">Quebec&lt;/option>
-                  &lt;option value="Saskatchewan">Saskatchewan&lt;/option>
-                &lt;/select>
-
-                &lt;p class="error-message milli island-1-4 push-0" id="province-error">
-                  &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="images/icons.svg#warning"/>&lt;/svg>&lt;/i>
-                  &lt;span class="icon-label">Please provide province name&lt;/span>
-                &lt;/p>
-              &lt;/div>
-            &lt;/div>
-
-          &lt;/div>
-
-          &lt;div class="push-1-2">
-            &lt;label for="zip">ZIP Code&lt;/label>
-            &lt;input type="text" id="zip" placeholder="K2K 3E4" required aria-describedby="zip-error">
-            &lt;p class="error-message milli island-1-4 push-0" id="zip-error">
-              &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="images/icons.svg#warning"/>&lt;/svg>&lt;/i>
-              &lt;span class="icon-label">Invalid ZIP code. ZIP format should be K2K 3E4.&lt;/span>
-            &lt;/p>
-          &lt;/div>
-
-        &lt;/section>
-      &lt;/div>
-
-      &lt;div class="unit xs-1 s-1 m-1 l-1-2 island push">
-
-        &lt;section class="summary">
-          &lt;h5>SUMMARY&lt;/h5>
-          &lt;div class="grid">
-            &lt;div class="unit xs-1-4 s-1-4 m-1-4 l-1-4">
-              &lt;img class="icon i-64" src="../../images/img-2.jpg" aria-label="Image of a sky blue sweater" alt="">
-            &lt;/div>
-            &lt;div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 gutter">
-              &lt;p class="micro bold push-quarter">BLUE CHEESE SWEATER&lt;/p>
-              &lt;p class="micro"> -&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;2&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;+ &lt;/p>
-            &lt;/div>
-            &lt;div class="unit xs-1-4 s-1-4 m-1-4 l-1-4">
-              &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="../../images/icons.svg#close"/>&lt;/svg>&lt;/i>
-            &lt;/div>
-
-          &lt;/div>
-          &lt;a class="btn push-1-2 milli bold" href="#">PAY &amp; PROCEED&lt;/a>
-        &lt;/section>
-
-      &lt;/div>
-    &lt;/div>
-  &lt;/div>
+              <code><pre id="forms-checkbox-code-sample-copy-chunk">&lt;form&gt;
+  &lt;input type="checkbox" id="agree" required aria-describedby="agree-error">
+  &lt;label class="sa kilo" for="agree">Checkbox&lt;/label>
+  &lt;p class="error-message milli island-1-4 push-0" id="agree-error">
+    &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="../../images/icons.svg#warning"/>&lt;/svg>&lt;/i>
+    &lt;span class="icon-label">Please select if shipping address is the same as the billing address&lt;/span>
+  &lt;/p>
 &lt;/form>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="pattern-details " id="forms--date" style="">
+        <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4" style="">
+          <h3 class="pattern-name tera push-1-8">Date</h3>
+            <ul class="list-group-inline gutter absolute pin-cr">
+                <li>
+                  <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="forms-date-code-sample">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-code"></use></svg>
+                    </i>
+                  </button>
+                </li>
+                <li>
+                  <button class="center-contents-vertical pattern-tool-btn pattern-include-btn" title="Copy include" aria-label="Copy include" data-copy-include-pattern="forms/date" hidden>
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-copy"></use></svg>
+                    </i>
+                  </button>
+                </li>
+                <li>
+                  <a class="btn center-contents-vertical pattern-tool-btn pattern-pop-btn" href="patterns/forms/date.html" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-pop-out"></use></svg>
+                    </i>
+                  </a>
+                </li>
+            </ul>
+        </div>
+          <div class="pattern-desc milli island" style="">
+            <div class="max-length"><p>The date picker can be used for payment details, birthday information. Use date picker when you require the user to select/enter date.</p>
+</div>
+          </div>
+
+      <div class="pattern-examples pad-t-1-2 pad-b-1-2" style="">
+        <div class="gutter-2 pad-t-1-2 pad-b-1-2">
+          <div class="resizeable-pattern relative" style="">
+            <i class="icon i-32 patternbot-iframe-loading-gears absolute pin-c"><svg><use xlink:href="#patternbot-iframe-loading-gears"></use></svg></i>
+            <iframe data-src="patterns/forms/date.html" scrolling="no" onload="resizeIframe(this)"  ></iframe>
+              <div class="resizeable-pattern-length">
+                <div class="resize-handle resize-handle-left" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+                <div class="resize-handle resize-handle-right" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+              </div>
+          </div>
+        </div>
+
+          <div class="pattern-code-wrap gutter pad-t-1-2 pad-b-1-2" hidden aria-hidden="true" id="forms-date-code-sample" tabindex="-1">
+            <div class="pattern-code relative milli island-1-2" style="">
+              <button class="center-contents-vertical pattern-tool-btn pattern-copy-btn absolute pin-tr" title="Copy code" aria-label="Copy code" data-clipboard-target="#forms-date-code-sample-copy-chunk" hidden>
+                <i class="icon i-18">
+                  <svg><use xlink:href="#icon-copy"></use></svg>
+                </i>
+              </button>
+              <code><pre id="forms-date-code-sample-copy-chunk">&lt;form&gt;
+  &lt;label for="date">Date&lt;/label>
+  &lt;input type="date" id="date" required aria-describedby="date-error">
+  &lt;p class="error-message milli island-1-4 push-0" id="date-error">
+    &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="../../images/icons.svg#warning"/>&lt;/svg>&lt;/i>
+    &lt;span class="icon-label">Enter correct details. The format should be year, month, date&lt;/span>
+  &lt;/p>
+&lt;/form>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="pattern-details " id="forms--drop-down" style="">
+        <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4" style="">
+          <h3 class="pattern-name tera push-1-8">Drop down</h3>
+            <ul class="list-group-inline gutter absolute pin-cr">
+                <li>
+                  <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="forms-drop-down-code-sample">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-code"></use></svg>
+                    </i>
+                  </button>
+                </li>
+                <li>
+                  <button class="center-contents-vertical pattern-tool-btn pattern-include-btn" title="Copy include" aria-label="Copy include" data-copy-include-pattern="forms/drop-down" hidden>
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-copy"></use></svg>
+                    </i>
+                  </button>
+                </li>
+                <li>
+                  <a class="btn center-contents-vertical pattern-tool-btn pattern-pop-btn" href="patterns/forms/drop-down.html" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-pop-out"></use></svg>
+                    </i>
+                  </a>
+                </li>
+            </ul>
+        </div>
+          <div class="pattern-desc milli island" style="">
+            <div class="max-length"><p>Dropdown menus are used to enable users to select an option from the list.</p>
+<p>It can be used for Province/Territory list, product options.</p>
+</div>
+          </div>
+
+      <div class="pattern-examples pad-t-1-2 pad-b-1-2" style="">
+        <div class="gutter-2 pad-t-1-2 pad-b-1-2">
+          <div class="resizeable-pattern relative" style="">
+            <i class="icon i-32 patternbot-iframe-loading-gears absolute pin-c"><svg><use xlink:href="#patternbot-iframe-loading-gears"></use></svg></i>
+            <iframe data-src="patterns/forms/drop-down.html" scrolling="no" onload="resizeIframe(this)"  ></iframe>
+              <div class="resizeable-pattern-length">
+                <div class="resize-handle resize-handle-left" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+                <div class="resize-handle resize-handle-right" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+              </div>
+          </div>
+        </div>
+
+          <div class="pattern-code-wrap gutter pad-t-1-2 pad-b-1-2" hidden aria-hidden="true" id="forms-drop-down-code-sample" tabindex="-1">
+            <div class="pattern-code relative milli island-1-2" style="">
+              <button class="center-contents-vertical pattern-tool-btn pattern-copy-btn absolute pin-tr" title="Copy code" aria-label="Copy code" data-clipboard-target="#forms-drop-down-code-sample-copy-chunk" hidden>
+                <i class="icon i-18">
+                  <svg><use xlink:href="#icon-copy"></use></svg>
+                </i>
+              </button>
+              <code><pre id="forms-drop-down-code-sample-copy-chunk">&lt;form&gt;
+  &lt;select name="text" id="drop-down" aria-describedby="drop-down-error">
+    &lt;option value="option-1">Option 1&lt;/option>
+    &lt;option value="option-2">Option 2&lt;/option>
+    &lt;option value="option-3">Option 3&lt;/option>
+    &lt;option value="option-4">Option 4&lt;/option>
+  &lt;/select>
+  &lt;p class="error-message milli" id="drop-down-error">
+    &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="../../images/icons.svg#warning"/>&lt;/svg>&lt;/i>
+    &lt;span class="icon-label">You can select only one option&lt;/span>
+  &lt;/p>
+&lt;/form>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="pattern-details " id="forms--email" style="">
+        <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4" style="">
+          <h3 class="pattern-name tera push-1-8">Email</h3>
+            <ul class="list-group-inline gutter absolute pin-cr">
+                <li>
+                  <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="forms-email-code-sample">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-code"></use></svg>
+                    </i>
+                  </button>
+                </li>
+                <li>
+                  <button class="center-contents-vertical pattern-tool-btn pattern-include-btn" title="Copy include" aria-label="Copy include" data-copy-include-pattern="forms/email" hidden>
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-copy"></use></svg>
+                    </i>
+                  </button>
+                </li>
+                <li>
+                  <a class="btn center-contents-vertical pattern-tool-btn pattern-pop-btn" href="patterns/forms/email.html" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-pop-out"></use></svg>
+                    </i>
+                  </a>
+                </li>
+            </ul>
+        </div>
+          <div class="pattern-desc milli island" style="">
+            <div class="max-length"><p>The email field is provided to prompt the user to provide their email address.
+It is generally used for account creation, log in, payment gateway access.</p>
+</div>
+          </div>
+
+      <div class="pattern-examples pad-t-1-2 pad-b-1-2" style="">
+        <div class="gutter-2 pad-t-1-2 pad-b-1-2">
+          <div class="resizeable-pattern relative" style="">
+            <i class="icon i-32 patternbot-iframe-loading-gears absolute pin-c"><svg><use xlink:href="#patternbot-iframe-loading-gears"></use></svg></i>
+            <iframe data-src="patterns/forms/email.html" scrolling="no" onload="resizeIframe(this)"  ></iframe>
+              <div class="resizeable-pattern-length">
+                <div class="resize-handle resize-handle-left" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+                <div class="resize-handle resize-handle-right" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+              </div>
+          </div>
+        </div>
+
+          <div class="pattern-code-wrap gutter pad-t-1-2 pad-b-1-2" hidden aria-hidden="true" id="forms-email-code-sample" tabindex="-1">
+            <div class="pattern-code relative milli island-1-2" style="">
+              <button class="center-contents-vertical pattern-tool-btn pattern-copy-btn absolute pin-tr" title="Copy code" aria-label="Copy code" data-clipboard-target="#forms-email-code-sample-copy-chunk" hidden>
+                <i class="icon i-18">
+                  <svg><use xlink:href="#icon-copy"></use></svg>
+                </i>
+              </button>
+              <code><pre id="forms-email-code-sample-copy-chunk">&lt;label for="email"&gt;Email&lt;/label>
+&lt;input type="email" id="email" required aria-describedby="email-error">
+&lt;p class="error-message milli island-1-4 push-0" id="email-error">
+  &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="../../images/icons.svg#warning"/>&lt;/svg>&lt;/i>
+  &lt;span class="icon-label">Please provide a properly formatted email address&lt;/span>
+&lt;/p>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="pattern-details " id="forms--number" style="">
+        <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4" style="">
+          <h3 class="pattern-name tera push-1-8">Number</h3>
+            <ul class="list-group-inline gutter absolute pin-cr">
+                <li>
+                  <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="forms-number-code-sample">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-code"></use></svg>
+                    </i>
+                  </button>
+                </li>
+                <li>
+                  <button class="center-contents-vertical pattern-tool-btn pattern-include-btn" title="Copy include" aria-label="Copy include" data-copy-include-pattern="forms/number" hidden>
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-copy"></use></svg>
+                    </i>
+                  </button>
+                </li>
+                <li>
+                  <a class="btn center-contents-vertical pattern-tool-btn pattern-pop-btn" href="patterns/forms/number.html" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-pop-out"></use></svg>
+                    </i>
+                  </a>
+                </li>
+            </ul>
+        </div>
+          <div class="pattern-desc milli island" style="">
+            <div class="max-length"><p>The number field in a form accepts only numbers and has an inbuilt increase and decrease function.
+Use for adding/removing items from cart.</p>
+</div>
+          </div>
+
+      <div class="pattern-examples pad-t-1-2 pad-b-1-2" style="">
+        <div class="gutter-2 pad-t-1-2 pad-b-1-2">
+          <div class="resizeable-pattern relative" style="">
+            <i class="icon i-32 patternbot-iframe-loading-gears absolute pin-c"><svg><use xlink:href="#patternbot-iframe-loading-gears"></use></svg></i>
+            <iframe data-src="patterns/forms/number.html" scrolling="no" onload="resizeIframe(this)"  ></iframe>
+              <div class="resizeable-pattern-length">
+                <div class="resize-handle resize-handle-left" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+                <div class="resize-handle resize-handle-right" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+              </div>
+          </div>
+        </div>
+
+          <div class="pattern-code-wrap gutter pad-t-1-2 pad-b-1-2" hidden aria-hidden="true" id="forms-number-code-sample" tabindex="-1">
+            <div class="pattern-code relative milli island-1-2" style="">
+              <button class="center-contents-vertical pattern-tool-btn pattern-copy-btn absolute pin-tr" title="Copy code" aria-label="Copy code" data-clipboard-target="#forms-number-code-sample-copy-chunk" hidden>
+                <i class="icon i-18">
+                  <svg><use xlink:href="#icon-copy"></use></svg>
+                </i>
+              </button>
+              <code><pre id="forms-number-code-sample-copy-chunk">&lt;form&gt;
+  &lt;label for="tel">Phone no.&lt;/label>
+  &lt;input type="tel" id="tel" required aria-describedby="tel-error">
+  &lt;p class="error-message milli island-1-4 push-0" id="tel-error">
+    &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="../../images/icons.svg#warning"/>&lt;/svg>&lt;/i>
+    &lt;span class="icon-label">Enter phone number without space.&lt;/span>
+  &lt;/p>
+&lt;/form>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="pattern-details " id="forms--password" style="">
+        <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4" style="">
+          <h3 class="pattern-name tera push-1-8">Password</h3>
+            <ul class="list-group-inline gutter absolute pin-cr">
+                <li>
+                  <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="forms-password-code-sample">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-code"></use></svg>
+                    </i>
+                  </button>
+                </li>
+                <li>
+                  <button class="center-contents-vertical pattern-tool-btn pattern-include-btn" title="Copy include" aria-label="Copy include" data-copy-include-pattern="forms/password" hidden>
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-copy"></use></svg>
+                    </i>
+                  </button>
+                </li>
+                <li>
+                  <a class="btn center-contents-vertical pattern-tool-btn pattern-pop-btn" href="patterns/forms/password.html" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-pop-out"></use></svg>
+                    </i>
+                  </a>
+                </li>
+            </ul>
+        </div>
+          <div class="pattern-desc milli island" style="">
+            <div class="max-length"><p>The password field hides text area. It generally involves a combination of letter, numbers and special characters.
+Use password field when user is creating an account.</p>
+</div>
+          </div>
+
+      <div class="pattern-examples pad-t-1-2 pad-b-1-2" style="">
+        <div class="gutter-2 pad-t-1-2 pad-b-1-2">
+          <div class="resizeable-pattern relative" style="">
+            <i class="icon i-32 patternbot-iframe-loading-gears absolute pin-c"><svg><use xlink:href="#patternbot-iframe-loading-gears"></use></svg></i>
+            <iframe data-src="patterns/forms/password.html" scrolling="no" onload="resizeIframe(this)"  ></iframe>
+              <div class="resizeable-pattern-length">
+                <div class="resize-handle resize-handle-left" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+                <div class="resize-handle resize-handle-right" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+              </div>
+          </div>
+        </div>
+
+          <div class="pattern-code-wrap gutter pad-t-1-2 pad-b-1-2" hidden aria-hidden="true" id="forms-password-code-sample" tabindex="-1">
+            <div class="pattern-code relative milli island-1-2" style="">
+              <button class="center-contents-vertical pattern-tool-btn pattern-copy-btn absolute pin-tr" title="Copy code" aria-label="Copy code" data-clipboard-target="#forms-password-code-sample-copy-chunk" hidden>
+                <i class="icon i-18">
+                  <svg><use xlink:href="#icon-copy"></use></svg>
+                </i>
+              </button>
+              <code><pre id="forms-password-code-sample-copy-chunk">&lt;form&gt;
+  &lt;label for="password">Password&lt;/label>
+  &lt;input type="password" id="password" required aria-describedby="password-error">
+  &lt;p class="error-message milli island-1-4 push-0" id="password-error">
+    &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="../../images/icons.svg#warning"/>&lt;/svg>&lt;/i>
+    &lt;span class="icon-label">Password should be 8 characters long&lt;/span>
+  &lt;/p>
+&lt;/form>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="pattern-details " id="forms--radio-button" style="">
+        <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4" style="">
+          <h3 class="pattern-name tera push-1-8">Radio button</h3>
+            <ul class="list-group-inline gutter absolute pin-cr">
+                <li>
+                  <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="forms-radio-button-code-sample">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-code"></use></svg>
+                    </i>
+                  </button>
+                </li>
+                <li>
+                  <button class="center-contents-vertical pattern-tool-btn pattern-include-btn" title="Copy include" aria-label="Copy include" data-copy-include-pattern="forms/radio-button" hidden>
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-copy"></use></svg>
+                    </i>
+                  </button>
+                </li>
+                <li>
+                  <a class="btn center-contents-vertical pattern-tool-btn pattern-pop-btn" href="patterns/forms/radio-button.html" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-pop-out"></use></svg>
+                    </i>
+                  </a>
+                </li>
+            </ul>
+        </div>
+          <div class="pattern-desc milli island" style="">
+            <div class="max-length"><p>Radion button in a form can accept only binary inputs.
+Use for agreeing to terms and conditions.</p>
+</div>
+          </div>
+
+      <div class="pattern-examples pad-t-1-2 pad-b-1-2" style="">
+        <div class="gutter-2 pad-t-1-2 pad-b-1-2">
+          <div class="resizeable-pattern relative" style="">
+            <i class="icon i-32 patternbot-iframe-loading-gears absolute pin-c"><svg><use xlink:href="#patternbot-iframe-loading-gears"></use></svg></i>
+            <iframe data-src="patterns/forms/radio-button.html" scrolling="no" onload="resizeIframe(this)"  ></iframe>
+              <div class="resizeable-pattern-length">
+                <div class="resize-handle resize-handle-left" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+                <div class="resize-handle resize-handle-right" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+              </div>
+          </div>
+        </div>
+
+          <div class="pattern-code-wrap gutter pad-t-1-2 pad-b-1-2" hidden aria-hidden="true" id="forms-radio-button-code-sample" tabindex="-1">
+            <div class="pattern-code relative milli island-1-2" style="">
+              <button class="center-contents-vertical pattern-tool-btn pattern-copy-btn absolute pin-tr" title="Copy code" aria-label="Copy code" data-clipboard-target="#forms-radio-button-code-sample-copy-chunk" hidden>
+                <i class="icon i-18">
+                  <svg><use xlink:href="#icon-copy"></use></svg>
+                </i>
+              </button>
+              <code><pre id="forms-radio-button-code-sample-copy-chunk">&lt;form&gt;
+  &lt;input type="radio" name="yes" value="yes" aria-describedby="radio-error" checked>&#xA0; Yes&lt;br>
+  &lt;input type="radio" name="no" value="no" aria-describedby="radio-error">&#xA0; No&lt;br>
+  &lt;input type="radio" name="whatever" value="whatever" aria-describedby="radio-error">&#xA0; Whatever
+  &lt;p class="error-message milli island-1-4 push-0" id="radio-error">
+    &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="../../images/icons.svg#warning"/>&lt;/svg>&lt;/i>
+    &lt;span class="icon-label">Please provide a properly formatted email address&lt;/span>
+  &lt;/p>
+&lt;/form>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="pattern-details " id="forms--range" style="">
+        <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4" style="">
+          <h3 class="pattern-name tera push-1-8">Range</h3>
+            <ul class="list-group-inline gutter absolute pin-cr">
+                <li>
+                  <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="forms-range-code-sample">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-code"></use></svg>
+                    </i>
+                  </button>
+                </li>
+                <li>
+                  <button class="center-contents-vertical pattern-tool-btn pattern-include-btn" title="Copy include" aria-label="Copy include" data-copy-include-pattern="forms/range" hidden>
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-copy"></use></svg>
+                    </i>
+                  </button>
+                </li>
+                <li>
+                  <a class="btn center-contents-vertical pattern-tool-btn pattern-pop-btn" href="patterns/forms/range.html" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-pop-out"></use></svg>
+                    </i>
+                  </a>
+                </li>
+            </ul>
+        </div>
+          <div class="pattern-desc milli island" style="">
+            <div class="max-length"><p>The range picker is a slider used to set a number within the set limits.
+Use for filtering price.</p>
+</div>
+          </div>
+
+      <div class="pattern-examples pad-t-1-2 pad-b-1-2" style="">
+        <div class="gutter-2 pad-t-1-2 pad-b-1-2">
+          <div class="resizeable-pattern relative" style="">
+            <i class="icon i-32 patternbot-iframe-loading-gears absolute pin-c"><svg><use xlink:href="#patternbot-iframe-loading-gears"></use></svg></i>
+            <iframe data-src="patterns/forms/range.html" scrolling="no" onload="resizeIframe(this)"  ></iframe>
+              <div class="resizeable-pattern-length">
+                <div class="resize-handle resize-handle-left" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+                <div class="resize-handle resize-handle-right" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+              </div>
+          </div>
+        </div>
+
+          <div class="pattern-code-wrap gutter pad-t-1-2 pad-b-1-2" hidden aria-hidden="true" id="forms-range-code-sample" tabindex="-1">
+            <div class="pattern-code relative milli island-1-2" style="">
+              <button class="center-contents-vertical pattern-tool-btn pattern-copy-btn absolute pin-tr" title="Copy code" aria-label="Copy code" data-clipboard-target="#forms-range-code-sample-copy-chunk" hidden>
+                <i class="icon i-18">
+                  <svg><use xlink:href="#icon-copy"></use></svg>
+                </i>
+              </button>
+              <code><pre id="forms-range-code-sample-copy-chunk">&lt;form&gt;
+  &lt;input type="range" name="points" min="0" max="10" aria-describedby="range-error">
+  &lt;p class="error-message milli island-1-4 push-0" id="range-error">
+    &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="../../images/icons.svg#warning"/>&lt;/svg>&lt;/i>
+    &lt;span class="icon-label">Enter appropriate range value&lt;/span>
+  &lt;/p>
+&lt;/form>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="pattern-details " id="forms--zip-code" style="">
+        <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4" style="">
+          <h3 class="pattern-name tera push-1-8">Zip code</h3>
+            <ul class="list-group-inline gutter absolute pin-cr">
+                <li>
+                  <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="forms-zip-code-code-sample">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-code"></use></svg>
+                    </i>
+                  </button>
+                </li>
+                <li>
+                  <button class="center-contents-vertical pattern-tool-btn pattern-include-btn" title="Copy include" aria-label="Copy include" data-copy-include-pattern="forms/zip-code" hidden>
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-copy"></use></svg>
+                    </i>
+                  </button>
+                </li>
+                <li>
+                  <a class="btn center-contents-vertical pattern-tool-btn pattern-pop-btn" href="patterns/forms/zip-code.html" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-pop-out"></use></svg>
+                    </i>
+                  </a>
+                </li>
+            </ul>
+        </div>
+          <div class="pattern-desc milli island" style="">
+            <div class="max-length"><p>ZIP code field in a form is used to allow the user enter their ZIP code.
+Use in payment gateways.</p>
+</div>
+          </div>
+
+      <div class="pattern-examples pad-t-1-2 pad-b-1-2" style="">
+        <div class="gutter-2 pad-t-1-2 pad-b-1-2">
+          <div class="resizeable-pattern relative" style="">
+            <i class="icon i-32 patternbot-iframe-loading-gears absolute pin-c"><svg><use xlink:href="#patternbot-iframe-loading-gears"></use></svg></i>
+            <iframe data-src="patterns/forms/zip-code.html" scrolling="no" onload="resizeIframe(this)"  ></iframe>
+              <div class="resizeable-pattern-length">
+                <div class="resize-handle resize-handle-left" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+                <div class="resize-handle resize-handle-right" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+              </div>
+          </div>
+        </div>
+
+          <div class="pattern-code-wrap gutter pad-t-1-2 pad-b-1-2" hidden aria-hidden="true" id="forms-zip-code-code-sample" tabindex="-1">
+            <div class="pattern-code relative milli island-1-2" style="">
+              <button class="center-contents-vertical pattern-tool-btn pattern-copy-btn absolute pin-tr" title="Copy code" aria-label="Copy code" data-clipboard-target="#forms-zip-code-code-sample-copy-chunk" hidden>
+                <i class="icon i-18">
+                  <svg><use xlink:href="#icon-copy"></use></svg>
+                </i>
+              </button>
+              <code><pre id="forms-zip-code-code-sample-copy-chunk">&lt;div class="push-1-2"&gt;
+  &lt;label for="zip">ZIP Code&lt;/label>
+  &lt;input type="text" id="zip" placeholder="K2K 3E4" required aria-describedby="zip-error">
+  &lt;p class="error-message milli island-1-4 push-0" id="zip-error">
+    &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="../../images/icons.svg#warning"/>&lt;/svg>&lt;/i>
+    &lt;span class="icon-label">Invalid ZIP code. ZIP format should be K2K 3E4.&lt;/span>
+  &lt;/p>
+&lt;/div>
 </pre></code>
             </div>
           </div>
