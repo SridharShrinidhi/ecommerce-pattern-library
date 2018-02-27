@@ -1,0 +1,45 @@
+.flag-optional {
+  color: #999;
+}
+
+.is-validated input:invalid,
+.is-validated input[type="checkbox"]:invalid + label::before {
+  border-color: #f33;
+}
+
+.error-message {
+  display: none;
+  background-color: #fee;
+  color: var(--color-accent);
+}
+
+.error-message-highlighted {
+  background-color: var(--color-accent);
+  color: #fff;
+}
+
+.is-validated > .error-message:first-child,
+.is-validated input:invalid + .error-message,
+.is-validated input:invalid + label + .error-message {
+  display: block;
+}
+
+label {
+  display: block;
+}
+
+.sa {
+  display: inline-block;
+}
+
+input[type="checkbox"]:checked .billing {
+  visibility: hidden;
+}
+
+select,
+input {
+  border: 1px;
+  border-radius: 3px;
+  border-style: solid;
+  border-color: var(--color-primary);
+}
