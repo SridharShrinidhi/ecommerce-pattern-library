@@ -1,0 +1,42 @@
+
+p {
+  font-family: var(--font-primary);
+}
+
+a {
+  color: var(--color-primary);
+}
+
+.grey {
+  color: #a9a9a9;
+}
+
+hr {
+  border-top: 1px solid #000;
+}
+
+.main-img {
+  position: relative;
+  top: 0;
+}
+
+
+.collection-text {
+  top: 7em;
+  right: 40%;
+  z-index: 10;
+}
+
+.collection-img:first-child {
+  right: 10%
+  top: 2em;
+}
+
+.collection-img:nth-child(2) {
+  right: 20%
+  top: 5em;
+}
+.collection-img:last-child {
+  left: 30%
+  top: 2em;
+}
