@@ -348,9 +348,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 4/WEB DEV 4/ecommerce-pattern-library
- * @version 1519710619100
+ * @version 1519711647273
  */
-const patternManifest_1519710619100 = {
+const patternManifest_1519711647273 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -546,6 +546,7 @@ const patternManifest_1519710619100 = {
     "patterns": [
       "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 4/WEB DEV 4/ecommerce-pattern-library/patterns/banners",
       "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 4/WEB DEV 4/ecommerce-pattern-library/patterns/buttons",
+      "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 4/WEB DEV 4/ecommerce-pattern-library/patterns/cards",
       "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 4/WEB DEV 4/ecommerce-pattern-library/patterns/forms"
     ],
     "pages": []
@@ -628,6 +629,41 @@ const patternManifest_1519710619100 = {
       ]
     },
     {
+      "name": "cards",
+      "namePretty": "Cards",
+      "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 4/WEB DEV 4/ecommerce-pattern-library/patterns/cards",
+      "html": [
+        {
+          "name": "basic-cards",
+          "namePretty": "Basic cards",
+          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 4/WEB DEV 4/ecommerce-pattern-library/patterns/cards/basic-cards.html",
+          "localPath": "patterns/cards/basic-cards.html"
+        },
+        {
+          "name": "image-cards",
+          "namePretty": "Image cards",
+          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 4/WEB DEV 4/ecommerce-pattern-library/patterns/cards/image-cards.html",
+          "localPath": "patterns/cards/image-cards.html"
+        }
+      ],
+      "md": [
+        {
+          "name": "readme",
+          "namePretty": "Readme",
+          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 4/WEB DEV 4/ecommerce-pattern-library/patterns/cards/README.md",
+          "localPath": "patterns/cards/README.md"
+        }
+      ],
+      "css": [
+        {
+          "name": "cards",
+          "namePretty": "Cards",
+          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 4/WEB DEV 4/ecommerce-pattern-library/patterns/cards/cards.css",
+          "localPath": "patterns/cards/cards.css"
+        }
+      ]
+    },
+    {
       "name": "forms",
       "namePretty": "Forms",
       "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 4/WEB DEV 4/ecommerce-pattern-library/patterns/forms",
@@ -677,5 +713,5 @@ const patternManifest_1519710619100 = {
   }
 };
 
-patternBotIncludes(patternManifest_1519710619100);
+patternBotIncludes(patternManifest_1519711647273);
 }());
