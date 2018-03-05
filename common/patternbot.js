@@ -348,9 +348,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 4/WEB DEV 4/ecommerce-pattern-library
- * @version 1519756868850
+ * @version 1520279475064
  */
-const patternManifest_1519756868850 = {
+const patternManifest_1520279475064 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -755,9 +755,38 @@ const patternManifest_1519756868850 = {
       "name": "navigation",
       "namePretty": "Navigation",
       "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 4/WEB DEV 4/ecommerce-pattern-library/patterns/navigation",
-      "html": [],
-      "md": [],
-      "css": []
+      "html": [
+        {
+          "name": "filter",
+          "namePretty": "Filter",
+          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 4/WEB DEV 4/ecommerce-pattern-library/patterns/navigation/filter.html",
+          "localPath": "patterns/navigation/filter.html",
+          "readme": {}
+        },
+        {
+          "name": "footer-nav",
+          "namePretty": "Footer nav",
+          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 4/WEB DEV 4/ecommerce-pattern-library/patterns/navigation/footer-nav.html",
+          "localPath": "patterns/navigation/footer-nav.html",
+          "readme": {}
+        }
+      ],
+      "md": [
+        {
+          "name": "readme",
+          "namePretty": "Readme",
+          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 4/WEB DEV 4/ecommerce-pattern-library/patterns/navigation/README.md",
+          "localPath": "patterns/navigation/README.md"
+        }
+      ],
+      "css": [
+        {
+          "name": "navigation",
+          "namePretty": "Navigation",
+          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 4/WEB DEV 4/ecommerce-pattern-library/patterns/navigation/navigation.css",
+          "localPath": "patterns/navigation/navigation.css"
+        }
+      ]
     },
     {
       "name": "sections",
@@ -839,5 +868,5 @@ const patternManifest_1519756868850 = {
   }
 };
 
-patternBotIncludes(patternManifest_1519756868850);
+patternBotIncludes(patternManifest_1520279475064);
 }());

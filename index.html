@@ -776,12 +776,6 @@
       <div class="max-length"><p>The banners help create a visual story and representation of the brand and the collections. There are multiple banner layouts and each serve a purpose</p>
 <p>Main Banner</p>
 <p>The main banners are to be used only in the homepage and helps create a visual impact for the brand and the website. It helps carry across the branding.</p>
-<p>Collection banner</p>
-<p>The collection banners weave a story for the viewers. A new collection, most trending collections can be communicated using this dynamic layout. Can be used on any page to represent collections, collaborations.</p>
-<p>Product collections banner</p>
-<p>The product collections banner are to be used only in the product collections page. The layout consists of cards that can be used to represent the collections in the e-commerce site.</p>
-<p>Products banner</p>
-<p>The Products banners are to be used in the product page. It consists of reviews, description and recommended section, to urge the users to buy more, and to provide a detailed description of the product.</p>
 </div>
     </div>
 
@@ -2120,37 +2114,205 @@ Use in payment gateways.</p>
 
 </section>
 
-        <section class="pattern" id="navigation" role="tabpanel" hidden aria-hidden="true" style="">
-  <div class="pattern-toolbar gutter pad-t-1-4 pad-b-1-8 relative" style="">
+        <section class="pattern" id="navigation" role="tabpanel" hidden aria-hidden="true" >
+  <div class="pattern-toolbar gutter pad-t-1-4 pad-b-1-8 relative" >
     <h2 class="pattern-name exa push-1-4" style="color: #000; font-family: &quot;Maven Pro&quot;, sans-serif;">Navigation</h2>
-        <ul class="list-group-inline gutter absolute pin-cr">
-            <li>
-              <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="navigation--code-sample">
-                <i class="icon i-18">
-                  <svg><use xlink:href="#icon-code"></use></svg>
-                </i>
-              </button>
-            </li>
-            <li>
-              <button class="center-contents-vertical pattern-tool-btn pattern-include-btn" title="Copy include" aria-label="Copy include" data-copy-include-pattern="navigation/" hidden>
+      <nav class="pattern-nav">
+        <ol class="list-group-inline push-1-4 pad-b-1-4">
+            <li><a href="#navigation--filter">Filter</a></li>
+            <li><a href="#navigation--footer-nav">Footer nav</a></li>
+        </ol>
+      </nav>
+  </div>
+
+      <div class="pattern-desc milli island" >
+        <div class="max-length"><p>Filter options to help with easy navigation and customization.
+It can be used in the product page, collections page to sort/filter brands, price, etc.,.</p>
+</div>
+      </div>
+
+  
+
+    <div class="pattern-details " id="navigation--filter" style="">
+        <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4" style="">
+          <h3 class="pattern-name tera push-1-8">Filter</h3>
+            <ul class="list-group-inline gutter absolute pin-cr">
+                <li>
+                  <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="navigation-filter-code-sample">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-code"></use></svg>
+                    </i>
+                  </button>
+                </li>
+                <li>
+                  <button class="center-contents-vertical pattern-tool-btn pattern-include-btn" title="Copy include" aria-label="Copy include" data-copy-include-pattern="navigation/filter" hidden>
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-copy"></use></svg>
+                    </i>
+                  </button>
+                </li>
+                <li>
+                  <a class="btn center-contents-vertical pattern-tool-btn pattern-pop-btn" href="patterns/navigation/filter.html" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-pop-out"></use></svg>
+                    </i>
+                  </a>
+                </li>
+            </ul>
+        </div>
+          <div class="pattern-desc milli island" style="">
+            <div class="max-length"><p>Filter options to help with easy navigation and customization.
+It can be used in the product page, collections page to sort/filter brands, price, etc.,.</p>
+</div>
+          </div>
+
+      <div class="pattern-examples pad-t-1-2 pad-b-1-2" style="">
+        <div class="gutter-2 pad-t-1-2 pad-b-1-2">
+          <div class="resizeable-pattern relative" style="">
+            <i class="icon i-32 patternbot-iframe-loading-gears absolute pin-c"><svg><use xlink:href="#patternbot-iframe-loading-gears"></use></svg></i>
+            <iframe data-src="patterns/navigation/filter.html" scrolling="no" onload="resizeIframe(this)"  ></iframe>
+              <div class="resizeable-pattern-length">
+                <div class="resize-handle resize-handle-left" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+                <div class="resize-handle resize-handle-right" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+              </div>
+          </div>
+        </div>
+
+          <div class="pattern-code-wrap gutter pad-t-1-2 pad-b-1-2" hidden aria-hidden="true" id="navigation-filter-code-sample" tabindex="-1">
+            <div class="pattern-code relative milli island-1-2" style="">
+              <button class="center-contents-vertical pattern-tool-btn pattern-copy-btn absolute pin-tr" title="Copy code" aria-label="Copy code" data-clipboard-target="#navigation-filter-code-sample-copy-chunk" hidden>
                 <i class="icon i-18">
                   <svg><use xlink:href="#icon-copy"></use></svg>
                 </i>
               </button>
-            </li>
-            <li>
-              <a class="center-contents-vertical pattern-tool-btn pattern-pop-btn" href="" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
+              <code><pre id="navigation-filter-code-sample-copy-chunk">&lt;section class="filter"&gt;
+  &lt;hr class="push-quarter">
+
+  &lt;div class="filter-options">
+
+    &lt;div class="island-quarter text-center">
+      &lt;div class="filter-option-1 island guuter-double">
+        &lt;a class="drop-button" href="#">Filter 1&lt;/a>
+        &lt;div class="dropdown-content">
+          &lt;a href="#" aria-describedby="option 1">option-1&lt;/a>
+          &lt;a href="#" aria-describedby="option 2">option-2&lt;/a>
+          &lt;a href="#" aria-describedby="option 3">option-3&lt;/a>
+        &lt;/div>
+      &lt;/div>
+      &lt;div class="filter-option-2 island guuter-double">
+        &lt;a class="drop-button" href="#">Filter 2&lt;/a>
+        &lt;div class="dropdown-content">
+          &lt;a href="#" aria-describedby="option 1">option-1&lt;/a>
+          &lt;a href="#" aria-describedby="option 2">option-2&lt;/a>
+          &lt;a href="#" aria-describedby="option 3">option-3&lt;/a>
+        &lt;/div>
+      &lt;/div>
+      &lt;div class="filter-option-3 island guuter-double">
+        &lt;a class="drop-button" href="#">Filter 3&lt;/a>
+        &lt;div class="dropdown-content">
+          &lt;a href="#" aria-describedby="option 1">option-1&lt;/a>
+          &lt;a href="#" aria-describedby="option 2">option-2&lt;/a>
+          &lt;a href="#" aria-describedby="option 3">option-3&lt;/a>
+        &lt;/div>
+      &lt;/div>
+    &lt;/div>
+  &lt;/div>
+
+  &lt;hr class="push-quarter">
+
+
+&lt;/section>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="pattern-details " id="navigation--footer-nav" style="">
+        <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4" style="">
+          <h3 class="pattern-name tera push-1-8">Footer nav</h3>
+            <ul class="list-group-inline gutter absolute pin-cr">
+                <li>
+                  <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="navigation-footer-nav-code-sample">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-code"></use></svg>
+                    </i>
+                  </button>
+                </li>
+                <li>
+                  <button class="center-contents-vertical pattern-tool-btn pattern-include-btn" title="Copy include" aria-label="Copy include" data-copy-include-pattern="navigation/footer-nav" hidden>
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-copy"></use></svg>
+                    </i>
+                  </button>
+                </li>
+                <li>
+                  <a class="btn center-contents-vertical pattern-tool-btn pattern-pop-btn" href="patterns/navigation/footer-nav.html" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-pop-out"></use></svg>
+                    </i>
+                  </a>
+                </li>
+            </ul>
+        </div>
+          <div class="pattern-desc milli island" style="">
+            <div class="max-length"><p>Secondary navigation for the site.
+Can be used in the footer.</p>
+</div>
+          </div>
+
+      <div class="pattern-examples pad-t-1-2 pad-b-1-2" style="">
+        <div class="gutter-2 pad-t-1-2 pad-b-1-2">
+          <div class="resizeable-pattern relative" style="">
+            <i class="icon i-32 patternbot-iframe-loading-gears absolute pin-c"><svg><use xlink:href="#patternbot-iframe-loading-gears"></use></svg></i>
+            <iframe data-src="patterns/navigation/footer-nav.html" scrolling="no" onload="resizeIframe(this)"  ></iframe>
+              <div class="resizeable-pattern-length">
+                <div class="resize-handle resize-handle-left" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+                <div class="resize-handle resize-handle-right" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+              </div>
+          </div>
+        </div>
+
+          <div class="pattern-code-wrap gutter pad-t-1-2 pad-b-1-2" hidden aria-hidden="true" id="navigation-footer-nav-code-sample" tabindex="-1">
+            <div class="pattern-code relative milli island-1-2" style="">
+              <button class="center-contents-vertical pattern-tool-btn pattern-copy-btn absolute pin-tr" title="Copy code" aria-label="Copy code" data-clipboard-target="#navigation-footer-nav-code-sample-copy-chunk" hidden>
                 <i class="icon i-18">
-                  <svg><use xlink:href="#icon-pop-out"></use></svg>
+                  <svg><use xlink:href="#icon-copy"></use></svg>
                 </i>
-              </a>
-            </li>
-        </ul>
-  </div>
+              </button>
+              <code><pre id="navigation-footer-nav-code-sample-copy-chunk">&lt;section class="secondary-nav"&gt;
 
+  &lt;div class="s-nav text-center">
+    &lt;a class="island-half" href="#" aria-describedby="link">Link 1&lt;/a>
+    &lt;a class="island-half" href="#" aria-describedby="link">Link 2&lt;/a>
+    &lt;a class="island-half" href="#" aria-describedby="link">Link 3&lt;/a>
+    &lt;a class="island-half" href="#" aria-describedby="link">Link 4&lt;/a>
+    &lt;a class="island-half" href="#" aria-describedby="link">Link 5&lt;/a>
+    &lt;a class="island-half" href="#" aria-describedby="link">Link 6&lt;/a>
+    &lt;a class="island-half" href="#" aria-describedby="link">Link 7&lt;/a>
+  &lt;/div>
 
-  
-
+&lt;/section>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
 
 </section>
 
@@ -2169,6 +2331,15 @@ Use in payment gateways.</p>
       </nav>
   </div>
 
+    <div class="pattern-desc milli island" >
+      <div class="max-length"><p>Collection section</p>
+<p>The collection sections weave a story for the viewers. A new collection, most trending collections can be communicated using this dynamic layout. Can be used on any page to represent collections, collaborations.</p>
+<p>Product collections section</p>
+<p>The product collections section are to be used only in the product collections page. The layout consists of cards that can be used to represent the collections in the e-commerce site.</p>
+<p>Products section</p>
+<p>The Products sections are to be used in the product page. It consists of reviews, description and recommended section, to urge the users to buy more, and to provide a detailed description of the product.</p>
+</div>
+    </div>
 
   
 
