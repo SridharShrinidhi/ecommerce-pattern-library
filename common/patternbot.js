@@ -348,9 +348,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 4/WEB DEV 4/ecommerce-pattern-library
- * @version 1520279475064
+ * @version 1520353009306
  */
-const patternManifest_1520279475064 = {
+const patternManifest_1520353009305 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -560,28 +560,10 @@ const patternManifest_1520279475064 = {
       "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 4/WEB DEV 4/ecommerce-pattern-library/patterns/banners",
       "html": [
         {
-          "name": "collections-banner",
-          "namePretty": "Collections banner",
-          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 4/WEB DEV 4/ecommerce-pattern-library/patterns/banners/collections-banner.html",
-          "localPath": "patterns/banners/collections-banner.html"
-        },
-        {
           "name": "main-banners",
           "namePretty": "Main banners",
           "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 4/WEB DEV 4/ecommerce-pattern-library/patterns/banners/main-banners.html",
           "localPath": "patterns/banners/main-banners.html"
-        },
-        {
-          "name": "product-page-banner",
-          "namePretty": "Product page banner",
-          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 4/WEB DEV 4/ecommerce-pattern-library/patterns/banners/product-page-banner.html",
-          "localPath": "patterns/banners/product-page-banner.html"
-        },
-        {
-          "name": "products-collections-page-banner",
-          "namePretty": "Products collections page banner",
-          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 4/WEB DEV 4/ecommerce-pattern-library/patterns/banners/products-collections-page-banner.html",
-          "localPath": "patterns/banners/products-collections-page-banner.html"
         }
       ],
       "md": [
@@ -868,5 +850,5 @@ const patternManifest_1520279475064 = {
   }
 };
 
-patternBotIncludes(patternManifest_1520279475064);
+patternBotIncludes(patternManifest_1520353009305);
 }());
