@@ -1,0 +1,40 @@
+.nav {
+  display: none;
+  height: 100vh;
+}
+
+.nav-check {
+  position: absolute;
+  top: -10em;
+}
+
+.nav-label {
+  cursor: pointer;
+}
+
+.nav-check:checked ~ .nav {
+  display: block;
+  background-color: var(--color-accent);
+  z-index: 20;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.close {
+  display: none;
+}
+
+a {
+  color: var(--color-secondary);
+}
+a:hover {
+  color: #fff;
+}
+
+.nav-check:checked ~ .nav-label .open {
+  display: none;
+}
+
+.nav-check:checked ~ .nav-label .close {
+  display: block;
+}
