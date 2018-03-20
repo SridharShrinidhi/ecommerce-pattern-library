@@ -1,7 +1,6 @@
 .btn {
   background-color: var(--color-accent);
   border-color: var(--color-accent);
-
   color: var(--color-primary);
 }
 
@@ -14,13 +13,12 @@
 
 .btn-ghost {
   background-color: transparent;
-  border-color: var(--color-accent);;
+  border-color: var(--color-accent);
 
   color: var(--color-primary);
 }
 
 .btn:hover {
-  background-color: var(--color-primary);
   border-color: var(--color-primary);
   color: #fff;
   background: linear-gradient(to left, black 50%, white 50%);

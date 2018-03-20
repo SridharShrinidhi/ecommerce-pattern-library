@@ -1,0 +1,15 @@
+html {
+  font-family: sans-serif;
+}
+
+.error-message {
+  display: none;
+}
+
+.subscribe {
+  display: inline-block;
+}
+
+.copyright {
+  display: block;
+}

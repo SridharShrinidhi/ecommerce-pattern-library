@@ -27,6 +27,7 @@
 a {
   color: var(--color-secondary);
 }
+
 a:hover {
   color: #fff;
 }
