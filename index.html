@@ -227,6 +227,22 @@
           </li>
         </ul>
       </nav>
+        <hr>
+        <h2 class="italic kilo normal gutter push-1-2">Pages</h2>
+        <nav class="nav mega">
+          <ul class="list-group">
+              <li>
+                <a class="gutter pad-t-1-4 pad-b-1-4 block page-pop" href="pages/home.html" target="_blank">
+                  <div class="relative">
+                    <span>Home</span>
+                    <i class="icon i-18 absolute pin-cr">
+                      <svg><use xlink:href="#icon-pop-out" /></svg>
+                    </i>
+                  </div>
+                </a>
+              </li>
+          </ul>
+        </nav>
     </header>
 
     <main class="main">
@@ -859,12 +875,14 @@
                   <svg><use xlink:href="#icon-copy"></use></svg>
                 </i>
               </button>
-              <code><pre id="banners-main-banners-code-sample-copy-chunk">&lt;div class="home-banner"&gt;
-  &lt;div class="main-img">
-    &lt;h1 class="text-s text-m text-l">Think food.&lt;/h1>
-    &lt;img class="img-flex" src="../../images/banner.jpg" aria-label="Image of a girl in red graphic t-shirt that reads Tomato soup" alt="">
+              <code><pre id="banners-main-banners-code-sample-copy-chunk">&lt;div class="home-banner push-double"&gt;
+  &lt;div class="main-img relative">
+    &lt;div class="text-s text-m text-l">
+      &lt;h1 class="push-none">Think food.&lt;/h1>
+    &lt;/div>
+    &lt;img class="banner-img" src="../../images/banner.jpg" aria-label="Image of a girl in red graphic t-shirt that reads Tomato soup" alt="">
   &lt;/div>
-  &lt;p class="l-home-banner-text gutter giga pad-top bold">JUNK TRUNK is a quirky clothing store for the foodies amongst us. Wear your favourite dish. &lt;/p>
+  &lt;p class="wrapper max-length gutter mega pad-t-2 bold">JUNK TRUNK is a quirky clothing store for the foodies amongst us. Wear your favourite dish. &lt;/p>
 &lt;/div>
 </pre></code>
             </div>
@@ -1269,24 +1287,24 @@ Use the footer pattern on all pages.</p>
                 </i>
               </button>
               <code><pre id="footer-main-footer-code-sample-copy-chunk">&lt;div class="footer"&gt;
-  &lt;div class="links">
-    &lt;ul class="block list-group">
-      &lt;li class="left block gutter milli">
+  &lt;div class="links pad-t-2 push">
+    &lt;ul class="list-group island clearfix text-center">
+      &lt;li class="gutter milli">
         &lt;a href="#">About&lt;/a>
       &lt;/li>
-      &lt;li class="left block gutter milli">
+      &lt;li class="gutter milli text-center">
         &lt;a href="#">Terms &amp; Conditions&lt;/a>
       &lt;/li>
-      &lt;li class="left block gutter milli">
+      &lt;li class="gutter milli text-center">
         &lt;a href="#">Privacy Policy&lt;/a>
       &lt;/li>
-      &lt;li class="right gutter milli">
+      &lt;li class="gutter milli text-center">
         &lt;a href="#">Shipping info&lt;/a>
       &lt;/li>
-      &lt;li class="right gutter milli">
+      &lt;li class="gutter milli text-center">
         &lt;a href="#">Returns/Exchanges&lt;/a>
       &lt;/li>
-      &lt;li class="right gutter milli">
+      &lt;li class="gutter milli text-center">
         &lt;a href="#">Contact&lt;/a>
       &lt;/li>
     &lt;/ul>
@@ -2137,9 +2155,9 @@ Use the header pattern on all pages.</p>
                   <svg><use xlink:href="#icon-copy"></use></svg>
                 </i>
               </button>
-              <code><pre id="header-header-code-sample-copy-chunk">&lt;main&gt;
+              <code><pre id="header-header-code-sample-copy-chunk">&lt;main class="header"&gt;
   &lt;div class="logo">
-    &lt;div class="absolute pin-tl">
+    &lt;div class="left">
       &lt;a href="#">
           &lt;img class="island main-logo" src="../../images/logo-64.svg" alt="">
         &lt;/a>
@@ -2148,17 +2166,17 @@ Use the header pattern on all pages.</p>
   &lt;div class="navigation">
     &lt;nav>
       &lt;input type="checkbox" class="nav-check" id="nav-check">
-      &lt;label class="nav-label island absolute pin-tr" for="nav-check">
+      &lt;label class="nav-label gutter pad-t-2 right" for="nav-check">
         &lt;svg class="i-32 open">&lt;use xlink:href="../../images/icons.svg#togglenav" />&lt;/svg>
         &lt;svg class="i-32 close">&lt;use xlink:href="../../images/icons.svg#close" />&lt;/svg>
       &lt;/label>
       &lt;ul class="nav list-group island">
-        &lt;li class="list-group-item text-center pad-t-1-2">&lt;a aria-label="Click for women&apos;s clothing" class="tera text-center" href="#">Women&lt;/a>&lt;/li>
-        &lt;li class="list-group-item text-center pad-top-half">&lt;a aria-label="Click for men&apos;s clothing" class="tera text-center" href="#">Men&lt;/a>&lt;/li>
-        &lt;li class="list-group-item text-center pad-top-half">&lt;a aria-label="Click for gender neutral clothing" class="tera text-center" href="#">Gender Bender&lt;/a>&lt;/li>
-        &lt;li class="list-group-item text-center pad-top-half">&lt;a aria-label="Click for accessories" class="tera text-center" href="#">Accessories&lt;/a>&lt;/li>
-        &lt;li class="list-group-item text-center pad-top-half">&lt;a aria-label="Click for the list of brands" class="tera text-center" href="#">Brands&lt;/a>&lt;/li>
-        &lt;li class="list-group-item text-center pad-top-half">&lt;a aria-label="Click to go to the cart" class="tera text-center" href="#">Cart&lt;/a>&lt;/li>
+        &lt;li class="list-group-item text-center pad-t-1-2">&lt;a aria-label="Click for women&apos;s clothing" class="tera text-center yellow" href="#">Women&lt;/a>&lt;/li>
+        &lt;li class="list-group-item text-center pad-top-half">&lt;a aria-label="Click for men&apos;s clothing" class="tera text-center yellow" href="#">Men&lt;/a>&lt;/li>
+        &lt;li class="list-group-item text-center pad-top-half">&lt;a aria-label="Click for gender neutral clothing" class="tera text-center yellow" href="#">Gender Bender&lt;/a>&lt;/li>
+        &lt;li class="list-group-item text-center pad-top-half">&lt;a aria-label="Click for accessories" class="tera text-center yellow" href="#">Accessories&lt;/a>&lt;/li>
+        &lt;li class="list-group-item text-center pad-top-half">&lt;a aria-label="Click for the list of brands" class="tera text-center yellow" href="#">Brands&lt;/a>&lt;/li>
+        &lt;li class="list-group-item text-center pad-top-half">&lt;a aria-label="Click to go to the cart" class="tera text-center yellow" href="#">Cart&lt;/a>&lt;/li>
 
       &lt;/ul>
     &lt;/nav>

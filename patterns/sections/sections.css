@@ -3,10 +3,6 @@ p {
   font-family: var(--font-primary);
 }
 
-a {
-  color: var(--color-primary);
-}
-
 .grey {
   color: #a9a9a9;
 }
