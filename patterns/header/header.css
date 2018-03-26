@@ -48,3 +48,7 @@
 .nav-check:checked ~ .nav-label .close {
   display: block;
 }
+
+.current {
+  text-decoration: underline;
+}
