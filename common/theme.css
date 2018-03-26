@@ -28,6 +28,10 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  color: var(--color-primary);
+}
+
 ul,
 li,
 ol,
