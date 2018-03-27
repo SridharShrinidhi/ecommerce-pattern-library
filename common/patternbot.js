@@ -388,9 +388,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 4/WEB DEV 4/ecommerce-pattern-library
- * @version 1521568036563
+ * @version 1522165046002
  */
-const patternManifest_1521568036562 = {
+const patternManifest_1522165046002 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -551,14 +551,19 @@ const patternManifest_1521568036562 = {
       "bodyBasic": "Junk Trunk is a quirky clothing store for the foodies amongst us. Wear your favourite dish."
     },
     "icons": [
-      "credit-card",
+      "togglenav",
       "close",
+      "shopping-bag",
+      "review-star",
       "full-review",
       "half-review",
-      "review-star",
-      "shopping-bag",
-      "togglenav",
-      "warning"
+      "review-star-copy",
+      "review-star-copy-3",
+      "review-star-copy-2",
+      "review-star-copy-4",
+      "fb",
+      "twitter",
+      "instagram"
     ],
     "interfaceColours": {
       "primary": 0,
@@ -972,5 +977,5 @@ const patternManifest_1521568036562 = {
   }
 };
 
-patternBotIncludes(patternManifest_1521568036562);
+patternBotIncludes(patternManifest_1522165046002);
 }());
