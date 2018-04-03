@@ -3,15 +3,14 @@
 }
 
 .navigation {
-  position: absolute;
-  height: 50vh;
-  z-index: 10;
   width: 100%;
 }
 
 .nav {
+  position: relative;
   width: 100vw;
   display: none;
+  z-index: 100;
 }
 
 .nav-check {
@@ -27,6 +26,7 @@
   display: block;
   background-color: var(--color-accent);
   overflow: hidden;
+
 }
 
 .close {

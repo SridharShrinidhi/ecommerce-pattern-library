@@ -45,6 +45,11 @@ hr {
   display: none;
 }
 
+.filter-header {
+  position: relative;
+  z-index: 30;
+}
+
 .dropdown-content-brand,
 .dropdown-content-type {
   display: none;
@@ -63,6 +68,7 @@ hr {
 }
 
 .brand-check:checked ~ .dropdown-content-brand {
+  width: 150px;
   position: absolute;
   z-index: 10;
   display: block;
@@ -70,6 +76,7 @@ hr {
 }
 
 .type-check:checked ~ .dropdown-content-type {
+  width: 150px;
   position: absolute;
   z-index: 10;
   display: block;

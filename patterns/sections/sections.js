@@ -33,9 +33,9 @@ var cekatop1 = {
   element: document.getElementById("img-5")
 }
 
-var suoptop2 = {
-  brand: "Suop",
-  clothingType: "Tops",
+var fruitpant1 = {
+  brand: "Friut",
+  clothingType: "Pants",
   price: 68,
   element: document.getElementById("img-6")
 }
@@ -159,7 +159,7 @@ function sortByPrice(elements, ascending) {
   });
 }
 
-var clothes = [friutsweater1, cekasweater1, suoptop1, cekasweater2, cekatop1, suoptop2, suoptop3, cekasweater3, cekasweater4];
+var clothes = [friutsweater1, cekasweater1, suoptop1, cekasweater2, cekatop1, fruitpant1, suoptop3, cekasweater3, cekasweater4];
 
 function filterAll() {
   var results = clothes.slice()
