@@ -36,3 +36,30 @@ hr {
   left: 30%;
   top: 2em;
 }
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+.dropdown-content-brand,
+.dropdown-content-type {
+  display: none;
+}
+
+.filter-option-1:hover  .dropdown-content-brand {
+  display: block;
+  position: absolute;
+  top: 5em;
+  background-color: #fff;
+}
+
+.filter-option-2:hover  .dropdown-content-type {
+  display: block;
+  position: absolute;
+  top: 5em;
+  background-color: #fff;
+}
