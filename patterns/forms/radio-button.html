@@ -17,13 +17,19 @@
 <body>
 
   <form>
-    <input type="radio" name="yes" value="yes" aria-describedby="radio-error" checked>&nbsp; Yes<br>
-    <input type="radio" name="no" value="no" aria-describedby="radio-error">&nbsp; No<br>
-    <input type="radio" name="whatever" value="whatever" aria-describedby="radio-error">&nbsp; Whatever
-    <p class="error-message milli island-1-4 push-0" id="radio-error">
-      <i class="icon i-16"><svg><use xlink:href="../../images/icons.svg#warning" /></svg></i>
-      <span class="icon-label">Please provide a properly formatted email address</span>
-    </p>
+    <fieldset class="radio-btn push-quarter">
+      <legend class="kilo not-bold push-none">Radio Buttons</legend>
+      <input type="radio" name="option" id="option-1" aria-describedby="radio-error" checked>
+      <label class="inline-block radio-label-1 milli" for="option-1">Yes</label>
+      <input type="radio" name="option" id="option-2" aria-describedby="radio-error">
+      <label class="inline-block radio-label-2 milli" for="option-1">No</label>
+      <input type="radio" name="option" id="option-3" aria-describedby="radio-error">
+      <label class="inline-block radio-label-3 milli" for="option-1">Whatever</label>
+      <p class="error-message milli island-1-4 push-0" id="radio-error">
+        <i class="icon i-16"><svg><use xlink:href="../../images/icons.svg#warning" /></svg></i>
+        <span class="icon-label">Please provide a properly formatted email address</span>
+      </p>
+  </fieldset>
   </form>
 
 </body>

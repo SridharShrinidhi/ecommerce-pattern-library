@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>ZIP Code</title>
+  <title>Email</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="../../common/modules.css" rel="stylesheet">
   <link href="../../common/grid.css" rel="stylesheet">
@@ -15,13 +15,15 @@
 </head>
 
 <body>
-  <div class="zip-code push-1-2">
-    <label for="zip">ZIP Code</label>
-    <input type="text" id="zip" placeholder="K2K 3E4" required aria-describedby="zip-error">
-    <p class="error-message milli island-1-4 push-0" id="zip-error">
-      <i class="icon i-16"><svg><use xlink:href="../../images/icons.svg#warning" /></svg></i>
-      <span class="icon-label">Invalid ZIP code. ZIP format should be K2K 3E4.</span>
-    </p>
-  </div>
+  <form>
+    <div class="address push-1-2">
+      <label for="address">Address</label>
+      <input id="address" required aria-describedby="address-error">
+      <p class="error-message milli island-1-4 push-0" id="address-error">
+        <i class="icon i-16"><svg><use xlink:href="../../images/icons.svg#warning" /></svg></i>
+        <span class="icon-label">Please provide a properly formatted email address</span>
+      </p>
+    </div>
+  </form>
 </body>
 </html>

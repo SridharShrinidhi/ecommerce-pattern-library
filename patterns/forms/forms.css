@@ -3,7 +3,7 @@ html {
 }
 
 .error-message {
-  display: block;
+  display: none;
   background-color: #fee;
   color: var(--color-accent);
 }
@@ -22,8 +22,12 @@ input[type="checkbox"]:checked .billing {
 
 select,
 input {
-  border: 1px;
-  border-radius: 3px;
+  border: .5px;
+  border-radius: 2px;
   border-style: solid;
   border-color: var(--color-primary);
+}
+
+fieldset {
+  border: none;
 }

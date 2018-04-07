@@ -14,7 +14,7 @@ email: |
     The email field is provided to prompt the user to provide their email address.
     It is generally used for account creation, log in, payment gateway access.
 
-number: |
+phone-number: |
     The number field in a form accepts only numbers and has an inbuilt increase and decrease function.
     Use for adding/removing items from cart.
 
