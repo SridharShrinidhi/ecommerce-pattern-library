@@ -83,6 +83,28 @@ hr {
   background-color: #fff;
 }
 
+.cart-product {
+  position: absolute;
+  top: -100em;
+}
+
+.cart-product-label,
+.toggle-btn-label {
+  cursor: pointer;
+}
+
+.toggle-btn:checked ~ .toggle-btn-open {
+  display: none;
+}
+
+.cart-product:checked ~ .cart {
+  display: none;
+}
+
+.cart-product:checked ~ .cart-product-label .close-icon {
+  display: none;
+}
+
 /* .filter-option-1:hover  .dropdown-content-brand {
   display: block;
   position: absolute;
