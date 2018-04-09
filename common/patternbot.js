@@ -444,9 +444,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 4/WEB DEV 4/ecommerce-pattern-library
- * @version bfa1ec23e2f5dec0b21a064c2a76d8c10020fb0e
+ * @version b59f5f469fa3bdc0aa674dbd4c44d010a482b153
  */
-const patternManifest_bfa1ec23e2f5dec0b21a064c2a76d8c10020fb0e = {
+const patternManifest_b59f5f469fa3bdc0aa674dbd4c44d010a482b153 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -658,6 +658,11 @@ const patternManifest_bfa1ec23e2f5dec0b21a064c2a76d8c10020fb0e = {
     ],
     "pages": [
       {
+        "name": "checkout-form.html",
+        "namePretty": "Checkout form",
+        "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 4/WEB DEV 4/ecommerce-pattern-library/pages/checkout-form.html"
+      },
+      {
         "name": "home.html",
         "namePretty": "Home",
         "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 4/WEB DEV 4/ecommerce-pattern-library/pages/home.html"
@@ -832,6 +837,13 @@ const patternManifest_bfa1ec23e2f5dec0b21a064c2a76d8c10020fb0e = {
       "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 4/WEB DEV 4/ecommerce-pattern-library/patterns/forms",
       "html": [
         {
+          "name": "address",
+          "namePretty": "Address",
+          "filename": "address",
+          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 4/WEB DEV 4/ecommerce-pattern-library/patterns/forms/address.html",
+          "localPath": "patterns/forms/address.html"
+        },
+        {
           "name": "checkbox",
           "namePretty": "Checkbox",
           "filename": "checkbox",
@@ -864,12 +876,18 @@ const patternManifest_bfa1ec23e2f5dec0b21a064c2a76d8c10020fb0e = {
           "readme": {}
         },
         {
+          "name": "name",
+          "namePretty": "Name",
+          "filename": "name",
+          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 4/WEB DEV 4/ecommerce-pattern-library/patterns/forms/name.html",
+          "localPath": "patterns/forms/name.html"
+        },
+        {
           "name": "number",
           "namePretty": "Number",
           "filename": "number",
           "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 4/WEB DEV 4/ecommerce-pattern-library/patterns/forms/number.html",
-          "localPath": "patterns/forms/number.html",
-          "readme": {}
+          "localPath": "patterns/forms/number.html"
         },
         {
           "name": "password",
@@ -877,6 +895,14 @@ const patternManifest_bfa1ec23e2f5dec0b21a064c2a76d8c10020fb0e = {
           "filename": "password",
           "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 4/WEB DEV 4/ecommerce-pattern-library/patterns/forms/password.html",
           "localPath": "patterns/forms/password.html",
+          "readme": {}
+        },
+        {
+          "name": "phone-number",
+          "namePretty": "Phone number",
+          "filename": "phone-number",
+          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 4/WEB DEV 4/ecommerce-pattern-library/patterns/forms/phone-number.html",
+          "localPath": "patterns/forms/phone-number.html",
           "readme": {}
         },
         {
@@ -1052,6 +1078,13 @@ const patternManifest_bfa1ec23e2f5dec0b21a064c2a76d8c10020fb0e = {
           "filename": "reviews",
           "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 4/WEB DEV 4/ecommerce-pattern-library/patterns/sections/reviews.html",
           "localPath": "patterns/sections/reviews.html"
+        },
+        {
+          "name": "toggle-section",
+          "namePretty": "Toggle section",
+          "filename": "toggle-section",
+          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 4/WEB DEV 4/ecommerce-pattern-library/patterns/sections/toggle-section.html",
+          "localPath": "patterns/sections/toggle-section.html"
         }
       ],
       "md": [
@@ -1103,5 +1136,5 @@ const patternManifest_bfa1ec23e2f5dec0b21a064c2a76d8c10020fb0e = {
   }
 };
 
-patternBotIncludes(patternManifest_bfa1ec23e2f5dec0b21a064c2a76d8c10020fb0e);
+patternBotIncludes(patternManifest_b59f5f469fa3bdc0aa674dbd4c44d010a482b153);
 }());
