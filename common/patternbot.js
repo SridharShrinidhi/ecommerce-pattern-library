@@ -444,9 +444,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 4/WEB DEV 4/ecommerce-pattern-library
- * @version b59f5f469fa3bdc0aa674dbd4c44d010a482b153
+ * @version 950b815124e94be349743970b06b07c11d533354
  */
-const patternManifest_b59f5f469fa3bdc0aa674dbd4c44d010a482b153 = {
+const patternManifest_950b815124e94be349743970b06b07c11d533354 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -1031,6 +1031,13 @@ const patternManifest_b59f5f469fa3bdc0aa674dbd4c44d010a482b153 = {
       "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 4/WEB DEV 4/ecommerce-pattern-library/patterns/sections",
       "html": [
         {
+          "name": "basic-section",
+          "namePretty": "Basic section",
+          "filename": "basic-section",
+          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 4/WEB DEV 4/ecommerce-pattern-library/patterns/sections/basic-section.html",
+          "localPath": "patterns/sections/basic-section.html"
+        },
+        {
           "name": "collection",
           "namePretty": "Collection",
           "filename": "collection",
@@ -1052,13 +1059,6 @@ const patternManifest_b59f5f469fa3bdc0aa674dbd4c44d010a482b153 = {
           "localPath": "patterns/sections/filter-section.html"
         },
         {
-          "name": "product-details",
-          "namePretty": "Product details",
-          "filename": "product-details",
-          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 4/WEB DEV 4/ecommerce-pattern-library/patterns/sections/product-details.html",
-          "localPath": "patterns/sections/product-details.html"
-        },
-        {
           "name": "products",
           "namePretty": "Products",
           "filename": "products",
@@ -1078,6 +1078,13 @@ const patternManifest_b59f5f469fa3bdc0aa674dbd4c44d010a482b153 = {
           "filename": "reviews",
           "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 4/WEB DEV 4/ecommerce-pattern-library/patterns/sections/reviews.html",
           "localPath": "patterns/sections/reviews.html"
+        },
+        {
+          "name": "size-picker",
+          "namePretty": "Size picker",
+          "filename": "size-picker",
+          "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 4/WEB DEV 4/ecommerce-pattern-library/patterns/sections/size-picker.html",
+          "localPath": "patterns/sections/size-picker.html"
         },
         {
           "name": "toggle-section",
@@ -1136,5 +1143,5 @@ const patternManifest_b59f5f469fa3bdc0aa674dbd4c44d010a482b153 = {
   }
 };
 
-patternBotIncludes(patternManifest_b59f5f469fa3bdc0aa674dbd4c44d010a482b153);
+patternBotIncludes(patternManifest_950b815124e94be349743970b06b07c11d533354);
 }());
