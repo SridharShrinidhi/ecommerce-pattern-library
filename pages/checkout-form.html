@@ -9,12 +9,14 @@
 </head>
 
 <body>
-  <script type="application/json" data-pattern="header/header">
-    {
-      ".current[class]": "tera text-center yellow"
-    }
-  </script>
-  <main class="main" role="main">
+    <main class="main" role="main" id="main">
+    <script type="application/json" data-pattern="header/header">
+      {
+        ".current[class]": "tera text-center yellow",
+        ".cart[class]": "cart tera text-center yellow current"
+      }
+    </script>
+
     <div class="grid">
       <div class="unit xs-1 s-1 m-1-2 l-1-2 island">
         <h4 class="bold mega">RETURNING CUSTOMER</h4>
@@ -56,7 +58,7 @@
         </script>
         <div class="grid">
 
-          <div class="unit xs-1 s-1 m-1-2 l-1-2">
+          <div class="unit xs-1 s-1 m-1 l-1-2">
             <script type="application/json" data-pattern="forms/name">
               {
                 "label": "City"
@@ -65,7 +67,7 @@
 
           </div>
 
-          <div class="unit xs-1 s-1 m-1-2 l-1-2 push-half">
+          <div class="unit xs-1 s-1 m-1 l-1-2 push-half">
             <script type="application/json" data-pattern="forms/drop-down">
               {
                 ".drop-down option:first-child": "Alberta",
@@ -120,14 +122,14 @@
 
         <div class="grid">
 
-          <div class="unit xs-1 s-1 m-1-2 l-1-2">
+          <div class="unit xs-1 s-1 m-1 l-1-2">
             <script type="application/json" data-pattern="forms/date-picker">
               {
                 ".date-picker label": "Expiry Date"
               }
             </script>
           </div>
-          <div class="unit xs-1 s-1 m-1-2 l-1-2">
+          <div class="unit xs-1 s-1 m-1 l-1-2">
             <script type="application/json" data-pattern="forms/number">
               {
                 ".number label": "CVV"

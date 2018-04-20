@@ -51,3 +51,12 @@
 .current {
   text-decoration: underline;
 }
+
+.skip-links a {
+  position: absolute;
+  top: -10em;
+}
+
+.skip-links a:focus {
+  top: 0;
+}

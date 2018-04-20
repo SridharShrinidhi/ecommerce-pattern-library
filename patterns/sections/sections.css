@@ -58,7 +58,7 @@ hr {
 .brand-check,
 .type-check {
   position: absolute;
-  top: -10em;
+  top: -100em;
 }
 
 .brand-label,
@@ -84,7 +84,7 @@ hr {
 
 .cart-product {
   position: absolute;
-  top: -100em;
+  top: -500em;
 }
 
 .cart-product-label,

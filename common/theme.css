@@ -32,6 +32,11 @@ a:hover {
   color: var(--color-primary);
 }
 
+a:focus {
+  outline: none;
+  text-decoration: underline;
+}
+
 ul,
 li,
 ol,
