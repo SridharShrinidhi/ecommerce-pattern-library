@@ -444,9 +444,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 4/WEB DEV 4/ecommerce-pattern-library
- * @version 407d7bfd9c27be0ba97c6d1788a2f2261efaa2c9
+ * @version 188813220a262e51ad1b20fe30c4b9340c4a0e7f
  */
-const patternManifest_407d7bfd9c27be0ba97c6d1788a2f2261efaa2c9 = {
+const patternManifest_188813220a262e51ad1b20fe30c4b9340c4a0e7f = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -607,19 +607,17 @@ const patternManifest_407d7bfd9c27be0ba97c6d1788a2f2261efaa2c9 = {
       "bodyBasic": "Junk Trunk is a quirky clothing store for the foodies amongst us. Wear your favourite dish."
     },
     "icons": [
-      "togglenav",
       "close",
-      "shopping-bag",
-      "review-star",
+      "fb",
+      "credit-card",
       "full-review",
       "half-review",
-      "review-star-copy",
-      "review-star-copy-3",
-      "review-star-copy-2",
-      "review-star-copy-4",
-      "fb",
+      "instagram",
+      "review-star",
+      "shopping-bag",
+      "togglenav",
       "twitter",
-      "instagram"
+      "warning"
     ],
     "interfaceColours": {
       "primary": 0,
@@ -1148,5 +1146,5 @@ const patternManifest_407d7bfd9c27be0ba97c6d1788a2f2261efaa2c9 = {
   }
 };
 
-patternBotIncludes(patternManifest_407d7bfd9c27be0ba97c6d1788a2f2261efaa2c9);
+patternBotIncludes(patternManifest_188813220a262e51ad1b20fe30c4b9340c4a0e7f);
 }());
