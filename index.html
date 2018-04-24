@@ -1428,7 +1428,7 @@ Use the footer pattern on all pages.</p>
                 </i>
               </button>
               <code><pre id="footer-subscribe-footer-code-sample-copy-chunk">&lt;div class="subscribe"&gt;
-  &lt;form>
+  &lt;form class="inline-block">
     &lt;div class="email">
       &lt;label for="email">Email&lt;/label>
       &lt;input type="email" id="email" required aria-describedby="email-error">
@@ -1437,8 +1437,10 @@ Use the footer pattern on all pages.</p>
         &lt;span class="icon-label">Please provide a properly formatted email address&lt;/span>
       &lt;/p>
     &lt;/div>
-    &lt;button class="btn inline-block" type="submit">Subscribe&lt;/button>
   &lt;/form>
+  &lt;div class="light-button island inline-block">
+    &lt;a class="btn btn-light milli bold" href="#">Subscribe&lt;/a>
+  &lt;/div>
 &lt;/div>
 </pre></code>
             </div>
@@ -1527,13 +1529,21 @@ Use the footer pattern on all pages.</p>
                   <svg><use xlink:href="#icon-copy"></use></svg>
                 </i>
               </button>
-              <code><pre id="forms-address-code-sample-copy-chunk">&lt;form&gt;
+              <code><pre id="forms-address-code-sample-copy-chunk">&lt;form method="post" action="#" novalidate=""&gt;
+
+  &lt;div class="error-message error-message-highlighted push island-1-2" role="alert" aria-live="assertive">
+    &lt;h3 class="push-0">
+        &lt;i class="icon 1-32">&lt;svg>&lt;use xlink:href="images/icons.svg#error"/>&lt;/svg>&lt;/i>
+        &lt;span class="icon-label">There are items that require your attention&lt;/span>
+      &lt;/h3>
+  &lt;/div>
+
   &lt;div class="address push-1-2">
     &lt;label for="address">Address&lt;/label>
     &lt;input id="address" required aria-describedby="address-error">
     &lt;p class="error-message milli island-1-4 push-0" id="address-error">
       &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="../../images/icons.svg#warning"/>&lt;/svg>&lt;/i>
-      &lt;span class="icon-label">Please provide a properly formatted email address&lt;/span>
+      &lt;span class="icon-label">Please provide an address&lt;/span>
     &lt;/p>
   &lt;/div>
 &lt;/form>
@@ -1601,7 +1611,14 @@ Use the footer pattern on all pages.</p>
                   <svg><use xlink:href="#icon-copy"></use></svg>
                 </i>
               </button>
-              <code><pre id="forms-checkbox-code-sample-copy-chunk">&lt;form&gt;
+              <code><pre id="forms-checkbox-code-sample-copy-chunk">&lt;form method="post" action="#" novalidate=""&gt;
+  &lt;div class="error-message error-message-highlighted push island-1-2" role="alert" aria-live="assertive">
+    &lt;h3 class="push-0">
+        &lt;i class="icon 1-32">&lt;svg>&lt;use xlink:href="images/icons.svg#error"/>&lt;/svg>&lt;/i>
+        &lt;span class="icon-label">There are items that require your attention&lt;/span>
+      &lt;/h3>
+  &lt;/div>
+
   &lt;div class="checkbox push-1-2">
     &lt;input type="checkbox" id="agree" required aria-describedby="agree-error">
     &lt;label class="sa kilo" for="agree">Checkbox&lt;/label>
@@ -1676,7 +1693,14 @@ Use date picker when you require the user to select/enter date.</p>
                   <svg><use xlink:href="#icon-copy"></use></svg>
                 </i>
               </button>
-              <code><pre id="forms-date-picker-code-sample-copy-chunk">&lt;form&gt;
+              <code><pre id="forms-date-picker-code-sample-copy-chunk">&lt;form method="post" action="#" novalidate=""&gt;
+  &lt;div class="error-message error-message-highlighted push island-1-2" role="alert" aria-live="assertive">
+    &lt;h3 class="push-0">
+        &lt;i class="icon 1-32">&lt;svg>&lt;use xlink:href="images/icons.svg#error"/>&lt;/svg>&lt;/i>
+        &lt;span class="icon-label">There are items that require your attention&lt;/span>
+      &lt;/h3>
+  &lt;/div>
+
   &lt;div class="date-picker push-1-2">
     &lt;label for="date">Date&lt;/label>
     &lt;input type="date" id="date" required aria-describedby="date-error">
@@ -1751,7 +1775,14 @@ It can be used for Province/Territory list, product options.</p>
                   <svg><use xlink:href="#icon-copy"></use></svg>
                 </i>
               </button>
-              <code><pre id="forms-drop-down-code-sample-copy-chunk">&lt;form&gt;
+              <code><pre id="forms-drop-down-code-sample-copy-chunk">&lt;form method="post" action="#" novalidate=""&gt;
+  &lt;div class="error-message error-message-highlighted push island-1-2" role="alert" aria-live="assertive">
+    &lt;h3 class="push-0">
+        &lt;i class="icon 1-32">&lt;svg>&lt;use xlink:href="images/icons.svg#error"/>&lt;/svg>&lt;/i>
+        &lt;span class="icon-label">There are items that require your attention&lt;/span>
+      &lt;/h3>
+  &lt;/div>
+
   &lt;div class="drop-down-style">
     &lt;label for="drop-down">Drop Down List&lt;/label>
     &lt;select class="drop-down" name="text" id="drop-down" aria-describedby="drop-down-error">
@@ -1834,7 +1865,15 @@ It is generally used for account creation, log in, payment gateway access.</p>
                   <svg><use xlink:href="#icon-copy"></use></svg>
                 </i>
               </button>
-              <code><pre id="forms-email-code-sample-copy-chunk">&lt;form&gt;
+              <code><pre id="forms-email-code-sample-copy-chunk">&lt;form method="post" action="#" novalidate=""&gt;
+
+  &lt;div class="error-message error-message-highlighted push island-1-2" role="alert" aria-live="assertive">
+    &lt;h3 class="push-0">
+        &lt;i class="icon 1-32">&lt;svg>&lt;use xlink:href="images/icons.svg#error"/>&lt;/svg>&lt;/i>
+        &lt;span class="icon-label">There are items that require your attention&lt;/span>
+      &lt;/h3>
+  &lt;/div>
+
   &lt;div class="email push-1-2">
     &lt;label for="email">Email&lt;/label>
     &lt;input type="email" id="email" required aria-describedby="email-error">
@@ -1904,15 +1943,24 @@ It is generally used for account creation, log in, payment gateway access.</p>
                   <svg><use xlink:href="#icon-copy"></use></svg>
                 </i>
               </button>
-              <code><pre id="forms-name-code-sample-copy-chunk">&lt;form&gt;
-  &lt;label class="sa kilo" for="name">Full Name&lt;/label>
-  &lt;div class="name push-1-2">
-    &lt;input class="milli" id="name" required placeholder="Jane Smith">
-    &lt;p class="error-message milli island-1-4 push-0" id="agree-error">
-      &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="../../images/icons.svg#warning"/>&lt;/svg>&lt;/i>
-      &lt;span class="icon-label">Please enter full name&lt;/span>
+              <code><pre id="forms-name-code-sample-copy-chunk">&lt;form method="post" action="#" novalidate=""&gt;
+
+  &lt;div class="error-message error-message-highlighted push island-1-2" role="alert" aria-live="assertive">
+    &lt;h3 class="push-0">
+        &lt;i class="icon 1-32">&lt;svg>&lt;use xlink:href="images/icons.svg#error"/>&lt;/svg>&lt;/i>
+        &lt;span class="icon-label">There are items that require your attention&lt;/span>
+      &lt;/h3>
+  &lt;/div>
+
+  &lt;div class="push-1-2">
+    &lt;label for="name">Name&lt;/label>
+    &lt;input id="name" required aria-describedby="name-error">
+    &lt;p class="error-message milli island-1-4 push-0" id="name-error">
+      &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="images/icons.svg#error"/>&lt;/svg>&lt;/i>
+      &lt;span class="icon-label">Please provide a name&lt;/span>
     &lt;/p>
   &lt;/div>
+
 &lt;/form>
 </pre></code>
             </div>
@@ -1974,7 +2022,15 @@ It is generally used for account creation, log in, payment gateway access.</p>
                   <svg><use xlink:href="#icon-copy"></use></svg>
                 </i>
               </button>
-              <code><pre id="forms-number-code-sample-copy-chunk">&lt;form&gt;
+              <code><pre id="forms-number-code-sample-copy-chunk">&lt;form method="post" action="#" novalidate=""&gt;
+
+  &lt;div class="error-message error-message-highlighted push island-1-2" role="alert" aria-live="assertive">
+    &lt;h3 class="push-0">
+        &lt;i class="icon 1-32">&lt;svg>&lt;use xlink:href="images/icons.svg#error"/>&lt;/svg>&lt;/i>
+        &lt;span class="icon-label">There are items that require your attention&lt;/span>
+      &lt;/h3>
+  &lt;/div>
+
   &lt;div class="number push-1-2">
     &lt;label class="kilo" for="number">Number&lt;/label>
     &lt;input type="number" id="number" required aria-describedby="num-error">
@@ -2049,7 +2105,14 @@ Use password field when user is creating an account.</p>
                   <svg><use xlink:href="#icon-copy"></use></svg>
                 </i>
               </button>
-              <code><pre id="forms-password-code-sample-copy-chunk">&lt;form&gt;
+              <code><pre id="forms-password-code-sample-copy-chunk">&lt;form method="post" action="#" novalidate=""&gt;
+
+  &lt;div class="error-message error-message-highlighted push island-1-2" role="alert" aria-live="assertive">
+    &lt;h3 class="push-0">
+        &lt;i class="icon 1-32">&lt;svg>&lt;use xlink:href="images/icons.svg#error"/>&lt;/svg>&lt;/i>
+        &lt;span class="icon-label">There are items that require your attention&lt;/span>
+      &lt;/h3>
+  &lt;/div>
   &lt;div class="password push-1-2">
     &lt;label for="password">Password&lt;/label>
     &lt;input type="password" id="password" maxlength="10" required aria-describedby="password-error">
@@ -2124,7 +2187,15 @@ Use for adding/removing items from cart.</p>
                   <svg><use xlink:href="#icon-copy"></use></svg>
                 </i>
               </button>
-              <code><pre id="forms-phone-number-code-sample-copy-chunk">&lt;form&gt;
+              <code><pre id="forms-phone-number-code-sample-copy-chunk">&lt;form method="post" action="#" novalidate=""&gt;
+
+  &lt;div class="error-message error-message-highlighted push island-1-2" role="alert" aria-live="assertive">
+    &lt;h3 class="push-0">
+        &lt;i class="icon 1-32">&lt;svg>&lt;use xlink:href="images/icons.svg#error"/>&lt;/svg>&lt;/i>
+        &lt;span class="icon-label">There are items that require your attention&lt;/span>
+      &lt;/h3>
+  &lt;/div>
+
   &lt;div class="number push-1-2">
     &lt;label for="tel">Phone no.&lt;/label>
     &lt;input type="tel" id="tel" required aria-describedby="tel-error">
@@ -2199,7 +2270,15 @@ Use for agreeing to terms and conditions.</p>
                   <svg><use xlink:href="#icon-copy"></use></svg>
                 </i>
               </button>
-              <code><pre id="forms-radio-button-code-sample-copy-chunk">&lt;form&gt;
+              <code><pre id="forms-radio-button-code-sample-copy-chunk">&lt;form method="post" action="#" novalidate=""&gt;
+
+  &lt;div class="error-message error-message-highlighted push island-1-2" role="alert" aria-live="assertive">
+    &lt;h3 class="push-0">
+        &lt;i class="icon 1-32">&lt;svg>&lt;use xlink:href="images/icons.svg#error"/>&lt;/svg>&lt;/i>
+        &lt;span class="icon-label">There are items that require your attention&lt;/span>
+      &lt;/h3>
+  &lt;/div>
+
   &lt;fieldset class="radio-btn push-quarter">
     &lt;legend class="kilo not-bold push-none">Radio Buttons&lt;/legend>
     &lt;input type="radio" name="option" id="option-1" aria-describedby="radio-error" checked>
@@ -2279,7 +2358,15 @@ Use for filtering price.</p>
                   <svg><use xlink:href="#icon-copy"></use></svg>
                 </i>
               </button>
-              <code><pre id="forms-range-code-sample-copy-chunk">&lt;form&gt;
+              <code><pre id="forms-range-code-sample-copy-chunk">&lt;form method="post" action="#" novalidate=""&gt;
+
+  &lt;div class="error-message error-message-highlighted push island-1-2" role="alert" aria-live="assertive">
+    &lt;h3 class="push-0">
+        &lt;i class="icon 1-32">&lt;svg>&lt;use xlink:href="images/icons.svg#error"/>&lt;/svg>&lt;/i>
+        &lt;span class="icon-label">There are items that require your attention&lt;/span>
+      &lt;/h3>
+  &lt;/div>
+
   &lt;div class="range push-1-2">
     &lt;input type="range" name="points" min="0" max="10" aria-describedby="range-error">
     &lt;p class="error-message milli island-1-4 push-0" id="range-error">
@@ -2353,14 +2440,24 @@ Use in payment gateways.</p>
                   <svg><use xlink:href="#icon-copy"></use></svg>
                 </i>
               </button>
-              <code><pre id="forms-zip-code-code-sample-copy-chunk">&lt;div class="zip-code push-1-2"&gt;
-  &lt;label for="zip">ZIP Code&lt;/label>
-  &lt;input type="text" id="zip" placeholder="K2K 3E4" required aria-describedby="zip-error">
-  &lt;p class="error-message milli island-1-4 push-0" id="zip-error">
-    &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="../../images/icons.svg#warning"/>&lt;/svg>&lt;/i>
-    &lt;span class="icon-label">Invalid ZIP code. ZIP format should be K2K 3E4.&lt;/span>
-  &lt;/p>
-&lt;/div>
+              <code><pre id="forms-zip-code-code-sample-copy-chunk">&lt;form method="post" action="#" novalidate=""&gt;
+
+  &lt;div class="error-message error-message-highlighted push island-1-2" role="alert" aria-live="assertive">
+    &lt;h3 class="push-0">
+      &lt;i class="icon 1-32">&lt;svg>&lt;use xlink:href="images/icons.svg#error"/>&lt;/svg>&lt;/i>
+      &lt;span class="icon-label">There are items that require your attention&lt;/span>
+    &lt;/h3>
+  &lt;/div>
+
+  &lt;div class="zip-code push-1-2">
+    &lt;label for="zip">ZIP Code&lt;/label>
+    &lt;input type="text" id="zip" placeholder="K2K 3E4" required aria-describedby="zip-error">
+    &lt;p class="error-message milli island-1-4 push-0" id="zip-error">
+      &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="../../images/icons.svg#warning"/>&lt;/svg>&lt;/i>
+      &lt;span class="icon-label">Invalid ZIP code. ZIP format should be K2K 3E4.&lt;/span>
+    &lt;/p>
+  &lt;/div>
+&lt;/form>
 </pre></code>
             </div>
           </div>
