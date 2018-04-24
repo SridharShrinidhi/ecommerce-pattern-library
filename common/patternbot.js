@@ -444,9 +444,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 4/WEB DEV 4/ecommerce-pattern-library
- * @version 188813220a262e51ad1b20fe30c4b9340c4a0e7f
+ * @version 232a6e14aee43f28676611c19b57bc66982bcb18
  */
-const patternManifest_188813220a262e51ad1b20fe30c4b9340c4a0e7f = {
+const patternManifest_232a6e14aee43f28676611c19b57bc66982bcb18 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -689,14 +689,16 @@ const patternManifest_188813220a262e51ad1b20fe30c4b9340c4a0e7f = {
           "namePretty": "Main banners",
           "filename": "main-banners",
           "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 4/WEB DEV 4/ecommerce-pattern-library/patterns/banners/main-banners.html",
-          "localPath": "patterns/banners/main-banners.html"
+          "localPath": "patterns/banners/main-banners.html",
+          "readme": {}
         },
         {
           "name": "pop-up-banner",
           "namePretty": "Pop up banner",
           "filename": "pop-up-banner",
           "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 4/WEB DEV 4/ecommerce-pattern-library/patterns/banners/pop-up-banner.html",
-          "localPath": "patterns/banners/pop-up-banner.html"
+          "localPath": "patterns/banners/pop-up-banner.html",
+          "readme": {}
         }
       ],
       "md": [
@@ -762,14 +764,16 @@ const patternManifest_188813220a262e51ad1b20fe30c4b9340c4a0e7f = {
           "namePretty": "Basic cards",
           "filename": "basic-cards",
           "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 4/WEB DEV 4/ecommerce-pattern-library/patterns/cards/basic-cards.html",
-          "localPath": "patterns/cards/basic-cards.html"
+          "localPath": "patterns/cards/basic-cards.html",
+          "readme": {}
         },
         {
           "name": "image-cards",
           "namePretty": "Image cards",
           "filename": "image-cards",
           "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 4/WEB DEV 4/ecommerce-pattern-library/patterns/cards/image-cards.html",
-          "localPath": "patterns/cards/image-cards.html"
+          "localPath": "patterns/cards/image-cards.html",
+          "readme": {}
         }
       ],
       "md": [
@@ -844,7 +848,8 @@ const patternManifest_188813220a262e51ad1b20fe30c4b9340c4a0e7f = {
           "namePretty": "Address",
           "filename": "address",
           "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 4/WEB DEV 4/ecommerce-pattern-library/patterns/forms/address.html",
-          "localPath": "patterns/forms/address.html"
+          "localPath": "patterns/forms/address.html",
+          "readme": {}
         },
         {
           "name": "checkbox",
@@ -883,14 +888,16 @@ const patternManifest_188813220a262e51ad1b20fe30c4b9340c4a0e7f = {
           "namePretty": "Name",
           "filename": "name",
           "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 4/WEB DEV 4/ecommerce-pattern-library/patterns/forms/name.html",
-          "localPath": "patterns/forms/name.html"
+          "localPath": "patterns/forms/name.html",
+          "readme": {}
         },
         {
           "name": "number",
           "namePretty": "Number",
           "filename": "number",
           "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 4/WEB DEV 4/ecommerce-pattern-library/patterns/forms/number.html",
-          "localPath": "patterns/forms/number.html"
+          "localPath": "patterns/forms/number.html",
+          "readme": {}
         },
         {
           "name": "password",
@@ -1038,63 +1045,72 @@ const patternManifest_188813220a262e51ad1b20fe30c4b9340c4a0e7f = {
           "namePretty": "Basic section",
           "filename": "basic-section",
           "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 4/WEB DEV 4/ecommerce-pattern-library/patterns/sections/basic-section.html",
-          "localPath": "patterns/sections/basic-section.html"
+          "localPath": "patterns/sections/basic-section.html",
+          "readme": {}
         },
         {
           "name": "collection",
           "namePretty": "Collection",
           "filename": "collection",
           "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 4/WEB DEV 4/ecommerce-pattern-library/patterns/sections/collection.html",
-          "localPath": "patterns/sections/collection.html"
+          "localPath": "patterns/sections/collection.html",
+          "readme": {}
         },
         {
           "name": "colour-picker",
           "namePretty": "Colour picker",
           "filename": "colour-picker",
           "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 4/WEB DEV 4/ecommerce-pattern-library/patterns/sections/colour-picker.html",
-          "localPath": "patterns/sections/colour-picker.html"
+          "localPath": "patterns/sections/colour-picker.html",
+          "readme": {}
         },
         {
           "name": "filter-section",
           "namePretty": "Filter section",
           "filename": "filter-section",
           "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 4/WEB DEV 4/ecommerce-pattern-library/patterns/sections/filter-section.html",
-          "localPath": "patterns/sections/filter-section.html"
+          "localPath": "patterns/sections/filter-section.html",
+          "readme": {}
         },
         {
           "name": "products",
           "namePretty": "Products",
           "filename": "products",
           "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 4/WEB DEV 4/ecommerce-pattern-library/patterns/sections/products.html",
-          "localPath": "patterns/sections/products.html"
+          "localPath": "patterns/sections/products.html",
+          "readme": {}
         },
         {
           "name": "recommended-section",
           "namePretty": "Recommended section",
           "filename": "recommended-section",
           "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 4/WEB DEV 4/ecommerce-pattern-library/patterns/sections/recommended-section.html",
-          "localPath": "patterns/sections/recommended-section.html"
+          "localPath": "patterns/sections/recommended-section.html",
+          "readme": {}
         },
         {
           "name": "reviews",
           "namePretty": "Reviews",
           "filename": "reviews",
           "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 4/WEB DEV 4/ecommerce-pattern-library/patterns/sections/reviews.html",
-          "localPath": "patterns/sections/reviews.html"
+          "localPath": "patterns/sections/reviews.html",
+          "readme": {}
         },
         {
           "name": "size-picker",
           "namePretty": "Size picker",
           "filename": "size-picker",
           "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 4/WEB DEV 4/ecommerce-pattern-library/patterns/sections/size-picker.html",
-          "localPath": "patterns/sections/size-picker.html"
+          "localPath": "patterns/sections/size-picker.html",
+          "readme": {}
         },
         {
           "name": "toggle-section",
           "namePretty": "Toggle section",
           "filename": "toggle-section",
           "path": "/Users/shrinidhisridhar/Documents/Graphic Design Program/Semester 4/WEB DEV 4/ecommerce-pattern-library/patterns/sections/toggle-section.html",
-          "localPath": "patterns/sections/toggle-section.html"
+          "localPath": "patterns/sections/toggle-section.html",
+          "readme": {}
         }
       ],
       "md": [
@@ -1146,5 +1162,5 @@ const patternManifest_188813220a262e51ad1b20fe30c4b9340c4a0e7f = {
   }
 };
 
-patternBotIncludes(patternManifest_188813220a262e51ad1b20fe30c4b9340c4a0e7f);
+patternBotIncludes(patternManifest_232a6e14aee43f28676611c19b57bc66982bcb18);
 }());

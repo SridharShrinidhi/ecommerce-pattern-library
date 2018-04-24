@@ -1,6 +1,4 @@
 ---
-Navigation: |
-    Secondary navigation library for the e-commerce website.
 
 filter: |
     Filter options to help with easy navigation and customization.
@@ -11,3 +9,4 @@ footer-nav: |
     Can be used in the footer.
 
 ---
+Secondary navigation library for the e-commerce website.

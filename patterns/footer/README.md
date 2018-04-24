@@ -9,3 +9,5 @@ subscribe-footer: |
   It consists of subscribe links for newsletter subscriptions.
 
 ---
+
+Footer provides users with sitemap, social media links and copyright information.
